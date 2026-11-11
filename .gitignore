@@ -1,0 +1,36 @@
+# Node & Frontend dependencies
+node_modules/
+dist/
+build/
+coverage/
+.DS_Store
+*.log
+
+# Sensitive environment variables & secrets (keep .env.example only)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.pytest_cache/
+
+# Temporary MapReduce execution and testing outputs
+**/outputs/test_temp/
+outputs/test_temp/
+**/outputs/*.tmp
+**/uploads/*
+!**/uploads/.gitkeep
+large_scale_csv_sorting/uploads/*
+!large_scale_csv_sorting/uploads/.gitkeep
+large_scale_csv_sorting/outputs/*
+!large_scale_csv_sorting/outputs/.gitkeep

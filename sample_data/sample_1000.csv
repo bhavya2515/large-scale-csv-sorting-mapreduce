@@ -1,0 +1,1001 @@
+transaction_id,customer_name,category,sales_amount,quantity,discount,transaction_date,city
+10000001,Liam Brown,Automotive,1664.67,8,0.32,2024-10-23,Dallas
+10000002,Noah Jones,Health & Personal Care,1510.8,17,0.28,2023-06-11,Seattle
+10000003,Isabella Gonzalez,Appliances,2287.35,15,0.05,2024-03-15,San Diego
+10000004,Harper Garcia,Electronics,4637.52,4,0.34,2024-09-26,Austin
+10000005,Olivia Rodriguez,Furniture,1764.77,2,0.06,2023-12-31,Miami
+10000006,Emma Gonzalez,Furniture,4080.68,18,0.08,2023-12-20,Denver
+10000007,Amelia Rodriguez,Electronics,4486.39,9,0.17,2024-04-09,Miami
+10000008,Lucas Jones,Industrial,4121.03,9,0.11,2025-02-22,Miami
+10000009,James Brown,Appliances,4564.03,19,0.26,2024-05-30,Austin
+10000010,Ethan Garcia,Garden,4254.44,14,0.02,2025-01-27,Miami
+10000011,Ethan Wilson,Garden,2910.37,7,0.17,2023-12-17,Miami
+10000012,Olivia Johnson,Clothing,3832.8,5,0.27,2024-12-28,Chicago
+10000013,Sophia Wilson,Health & Personal Care,3374.89,13,0.32,2024-06-09,Miami
+10000014,Ava Jones,Clothing,1274.09,16,0.26,2023-10-04,Chicago
+10000015,Isabella Jones,Furniture,530.96,15,0.33,2023-03-21,San Diego
+10000016,Sophia Jones,Furniture,3118.54,17,0.33,2023-11-08,San Diego
+10000017,Mason Miller,Health & Personal Care,1561.32,18,0.23,2025-09-10,Boston
+10000018,Mason Hernandez,Electronics,1306.08,2,0.12,2023-03-31,New York
+10000019,Ava Williams,Health & Personal Care,82.32,3,0.31,2023-07-15,Dallas
+10000020,Mia Brown,Garden,4640.97,3,0.11,2024-07-30,New York
+10000021,Ava Johnson,Furniture,2332.31,10,0.28,2024-05-16,Seattle
+10000022,Mason Miller,Automotive,4537.59,11,0.1,2024-04-25,San Francisco
+10000023,Liam Gonzalez,Garden,638.93,18,0.03,2023-12-16,Chicago
+10000024,Liam Martinez,Automotive,3356.86,8,0.22,2023-02-15,Chicago
+10000025,Harper Davis,Industrial,2450.45,1,0.2,2024-03-20,New York
+10000026,Aiden Wilson,Furniture,463.15,19,0.0,2025-01-12,Boston
+10000027,Liam Rodriguez,Electronics,2833.63,3,0.07,2025-02-01,San Francisco
+10000028,Isabella Rodriguez,Clothing,2706.16,3,0.05,2025-05-14,Denver
+10000029,Ethan Gonzalez,Clothing,1217.68,16,0.23,2023-08-14,Atlanta
+10000030,Mia Martinez,Books,119.26,1,0.19,2023-12-09,Boston
+10000031,Sophia Gonzalez,Garden,4002.55,10,0.34,2023-05-18,San Francisco
+10000032,Harper Lopez,Books,4646.68,18,0.01,2025-05-20,Seattle
+10000033,Sophia Brown,Books,2782.0,19,0.18,2025-04-26,San Francisco
+10000034,Amelia Lopez,Electronics,1385.25,14,0.04,2024-08-09,Austin
+10000035,Sophia Gonzalez,Industrial,1062.78,8,0.35,2023-03-08,Denver
+10000036,Liam Williams,Health & Personal Care,4246.85,17,0.01,2024-02-25,Denver
+10000037,Ethan Brown,Books,4678.17,20,0.33,2025-06-12,Austin
+10000038,James Rodriguez,Electronics,4823.83,10,0.23,2025-08-26,New York
+10000039,James Garcia,Automotive,1149.27,20,0.04,2023-07-14,Seattle
+10000040,Amelia Jones,Furniture,3713.57,1,0.31,2023-03-30,Austin
+10000041,Ethan Gonzalez,Clothing,676.71,14,0.21,2023-06-19,Atlanta
+10000042,Liam Miller,Industrial,4117.87,19,0.29,2023-10-26,Denver
+10000043,Oliver Wilson,Furniture,847.43,16,0.03,2024-09-22,San Francisco
+10000044,Ava Johnson,Clothing,141.53,1,0.02,2025-06-24,Seattle
+10000045,Harper Garcia,Automotive,838.31,8,0.33,2025-09-05,Seattle
+10000046,Emma Lopez,Automotive,1666.25,17,0.09,2024-09-01,New York
+10000047,Emma Martinez,Furniture,4216.89,20,0.11,2023-01-11,Miami
+10000048,Lucas Brown,Furniture,4809.27,12,0.29,2024-11-29,Boston
+10000049,Aiden Davis,Garden,1086.23,13,0.22,2024-08-22,Seattle
+10000050,Lucas Gonzalez,Health & Personal Care,4442.71,14,0.33,2023-11-20,San Diego
+10000051,Isabella Hernandez,Clothing,4978.88,15,0.03,2025-06-10,Seattle
+10000052,Aiden Brown,Automotive,1184.45,5,0.31,2025-07-27,Atlanta
+10000053,Aiden Davis,Health & Personal Care,3322.35,14,0.18,2024-09-18,Denver
+10000054,Harper Wilson,Health & Personal Care,4310.74,9,0.04,2024-09-22,Chicago
+10000055,Olivia Hernandez,Industrial,4680.54,16,0.31,2023-11-11,Atlanta
+10000056,Aiden Martinez,Health & Personal Care,1809.47,6,0.33,2024-04-03,Boston
+10000057,Lucas Smith,Electronics,1897.08,16,0.13,2025-05-02,Denver
+10000058,Mia Hernandez,Health & Personal Care,1979.13,6,0.29,2024-09-24,Seattle
+10000059,Oliver Smith,Automotive,2609.74,6,0.05,2023-10-03,Atlanta
+10000060,Lucas Martinez,Garden,3691.94,12,0.07,2025-05-21,San Francisco
+10000061,Ava Davis,Furniture,4235.71,5,0.14,2023-05-15,Atlanta
+10000062,Sophia Lopez,Books,1658.16,19,0.05,2023-06-15,Seattle
+10000063,James Davis,Furniture,630.94,16,0.18,2023-06-14,San Francisco
+10000064,Liam Martinez,Industrial,3299.83,14,0.0,2024-02-01,Seattle
+10000065,Amelia Wilson,Books,774.51,1,0.1,2023-02-13,San Francisco
+10000066,Emma Garcia,Clothing,2394.23,13,0.34,2024-04-01,San Diego
+10000067,Ethan Hernandez,Automotive,688.04,18,0.31,2024-08-24,Austin
+10000068,Noah Lopez,Garden,3298.56,9,0.18,2023-01-16,San Diego
+10000069,Ava Hernandez,Clothing,3571.69,5,0.06,2024-02-22,Austin
+10000070,Emma Lopez,Industrial,1075.35,17,0.18,2024-09-11,Seattle
+10000071,Oliver Garcia,Furniture,1170.98,19,0.13,2023-12-29,Miami
+10000072,Mia Johnson,Health & Personal Care,4530.61,16,0.3,2025-05-22,Chicago
+10000073,Mia Garcia,Books,229.56,20,0.09,2024-08-07,Dallas
+10000074,Mason Williams,Furniture,4717.12,4,0.15,2023-03-19,Dallas
+10000075,Olivia Brown,Automotive,1345.85,6,0.03,2024-07-27,Seattle
+10000076,Harper Miller,Electronics,3720.76,4,0.19,2023-04-11,Denver
+10000077,Mia Wilson,Garden,2294.66,7,0.06,2023-07-18,Austin
+10000078,Olivia Garcia,Health & Personal Care,3220.92,19,0.12,2025-08-04,New York
+10000079,Amelia Lopez,Automotive,2439.91,19,0.26,2025-04-22,Miami
+10000080,Aiden Rodriguez,Garden,3891.94,6,0.29,2025-06-18,San Francisco
+10000081,Harper Johnson,Furniture,1382.95,3,0.15,2025-08-06,Chicago
+10000082,Oliver Johnson,Clothing,2330.2,8,0.11,2023-05-01,Dallas
+10000083,Mia Hernandez,Electronics,378.62,6,0.26,2024-12-22,Chicago
+10000084,Oliver Lopez,Electronics,4096.01,4,0.0,2024-03-30,Boston
+10000085,Oliver Davis,Appliances,2700.79,14,0.13,2025-02-17,Chicago
+10000086,Oliver Jones,Health & Personal Care,4556.73,19,0.15,2024-01-04,Denver
+10000087,Amelia Wilson,Electronics,2804.67,14,0.26,2024-10-15,San Francisco
+10000088,Amelia Jones,Electronics,2363.21,17,0.21,2024-08-27,Dallas
+10000089,Aiden Lopez,Books,2217.13,3,0.2,2024-05-27,San Francisco
+10000090,Lucas Wilson,Health & Personal Care,2497.42,5,0.19,2024-10-29,Boston
+10000091,Olivia Jones,Industrial,4601.4,8,0.14,2023-12-03,Seattle
+10000092,Sophia Miller,Clothing,2046.92,1,0.01,2025-07-28,Atlanta
+10000093,Mason Gonzalez,Appliances,4133.85,18,0.06,2023-07-19,Seattle
+10000094,Liam Gonzalez,Electronics,4850.84,7,0.11,2024-07-21,Austin
+10000095,Olivia Brown,Garden,3950.02,14,0.32,2023-10-15,Miami
+10000096,Liam Lopez,Furniture,1741.44,3,0.07,2024-12-23,Austin
+10000097,Emma Miller,Appliances,4789.6,2,0.01,2024-05-14,Seattle
+10000098,Oliver Lopez,Health & Personal Care,4644.88,4,0.29,2024-09-30,San Francisco
+10000099,Amelia Hernandez,Clothing,2191.63,7,0.28,2024-05-29,San Diego
+10000100,Ava Hernandez,Automotive,990.48,15,0.07,2024-04-14,Boston
+10000101,Liam Jones,Electronics,4395.66,7,0.23,2024-09-08,New York
+10000102,Aiden Davis,Appliances,550.69,10,0.2,2023-03-25,New York
+10000103,Sophia Smith,Garden,661.09,11,0.01,2024-02-01,Denver
+10000104,Sophia Williams,Books,1429.35,8,0.31,2024-06-20,Miami
+10000105,Noah Jones,Automotive,976.62,17,0.02,2025-05-23,Chicago
+10000106,Aiden Jones,Industrial,3615.83,8,0.26,2023-06-04,San Francisco
+10000107,Olivia Lopez,Industrial,3478.89,5,0.35,2023-12-19,Denver
+10000108,James Garcia,Automotive,3092.98,4,0.07,2024-10-13,Austin
+10000109,Ethan Smith,Books,2286.25,19,0.06,2023-11-14,San Francisco
+10000110,Ethan Brown,Electronics,2744.21,13,0.32,2025-06-25,Austin
+10000111,Ethan Johnson,Electronics,4686.94,17,0.1,2024-04-25,Miami
+10000112,James Rodriguez,Garden,3700.23,15,0.22,2023-04-14,Chicago
+10000113,Harper Lopez,Books,1410.3,13,0.21,2024-02-06,San Diego
+10000114,Harper Smith,Industrial,4902.63,7,0.27,2023-01-28,Austin
+10000115,Isabella Jones,Automotive,807.16,12,0.02,2025-09-15,Boston
+10000116,Noah Hernandez,Automotive,2390.5,6,0.3,2025-01-23,Seattle
+10000117,Sophia Williams,Automotive,1675.8,17,0.26,2023-08-18,Miami
+10000118,Isabella Garcia,Automotive,829.6,13,0.22,2025-02-14,San Francisco
+10000119,Lucas Martinez,Garden,728.73,19,0.2,2023-11-21,Seattle
+10000120,Emma Williams,Garden,1586.29,5,0.01,2023-04-16,New York
+10000121,Olivia Johnson,Appliances,3685.6,12,0.16,2023-11-13,Chicago
+10000122,Mason Miller,Books,2505.7,2,0.3,2024-05-14,San Diego
+10000123,Liam Lopez,Books,1250.54,18,0.12,2024-10-07,Chicago
+10000124,Aiden Hernandez,Books,2832.43,11,0.16,2024-04-08,Dallas
+10000125,Mason Jones,Garden,3949.71,12,0.16,2024-07-08,Seattle
+10000126,James Johnson,Health & Personal Care,2356.86,20,0.3,2023-05-26,Atlanta
+10000127,Olivia Miller,Books,492.66,11,0.08,2023-02-23,Atlanta
+10000128,Emma Jones,Automotive,866.77,20,0.15,2024-08-20,Denver
+10000129,Amelia Garcia,Electronics,4062.98,4,0.12,2023-12-21,Dallas
+10000130,Noah Davis,Appliances,3056.97,9,0.33,2024-04-16,Dallas
+10000131,Noah Smith,Industrial,383.52,11,0.31,2025-02-24,New York
+10000132,Amelia Smith,Electronics,2783.13,3,0.1,2025-03-10,Miami
+10000133,Sophia Lopez,Furniture,510.48,19,0.06,2023-09-04,Denver
+10000134,Ava Wilson,Health & Personal Care,2670.24,18,0.2,2025-04-22,San Diego
+10000135,Sophia Gonzalez,Industrial,3553.52,12,0.23,2024-04-27,Seattle
+10000136,Harper Williams,Industrial,3856.99,11,0.03,2024-07-26,Boston
+10000137,Emma Rodriguez,Clothing,2267.55,17,0.13,2023-10-03,Denver
+10000138,James Brown,Health & Personal Care,4665.79,19,0.13,2024-07-09,Boston
+10000139,Ethan Johnson,Garden,4390.05,4,0.22,2023-02-17,Chicago
+10000140,Ava Lopez,Electronics,579.83,2,0.18,2024-12-07,Seattle
+10000141,Liam Rodriguez,Clothing,1078.37,20,0.33,2023-08-03,Seattle
+10000142,Mia Martinez,Industrial,3936.15,8,0.31,2023-06-11,Miami
+10000143,Ava Hernandez,Clothing,4646.9,13,0.23,2025-05-29,Boston
+10000144,Oliver Rodriguez,Books,4179.66,16,0.01,2025-09-22,San Diego
+10000145,Aiden Williams,Furniture,3736.86,15,0.11,2024-11-11,Seattle
+10000146,Aiden Rodriguez,Clothing,3496.0,1,0.09,2023-12-22,San Francisco
+10000147,Mia Smith,Appliances,561.82,4,0.33,2024-12-21,Chicago
+10000148,Isabella Martinez,Appliances,2703.24,16,0.12,2024-05-09,San Francisco
+10000149,Sophia Jones,Health & Personal Care,4024.96,11,0.19,2025-05-19,Seattle
+10000150,Oliver Rodriguez,Electronics,2298.95,19,0.34,2024-11-27,Dallas
+10000151,Olivia Davis,Electronics,718.65,20,0.08,2024-06-20,Dallas
+10000152,Sophia Lopez,Appliances,4606.05,13,0.19,2023-07-07,Dallas
+10000153,Mia Martinez,Appliances,1674.74,3,0.02,2024-02-01,New York
+10000154,Emma Martinez,Appliances,4628.53,14,0.11,2024-12-21,San Diego
+10000155,Liam Hernandez,Books,1828.03,12,0.09,2023-04-11,San Diego
+10000156,Aiden Brown,Books,1635.96,11,0.18,2023-05-21,Denver
+10000157,Harper Lopez,Health & Personal Care,1135.45,16,0.18,2023-08-11,Chicago
+10000158,Mia Williams,Automotive,3199.51,4,0.35,2024-08-30,New York
+10000159,Mason Lopez,Clothing,4523.72,4,0.12,2023-06-30,New York
+10000160,Liam Brown,Industrial,3609.41,6,0.29,2025-02-19,Denver
+10000161,James Davis,Appliances,2144.7,16,0.03,2023-12-10,Miami
+10000162,Isabella Wilson,Garden,196.06,5,0.14,2023-09-08,Dallas
+10000163,Mason Rodriguez,Automotive,2329.23,17,0.34,2024-09-14,Boston
+10000164,Oliver Gonzalez,Books,3166.99,11,0.26,2023-07-03,Dallas
+10000165,Mason Hernandez,Garden,4187.88,15,0.22,2025-01-31,Boston
+10000166,Oliver Martinez,Appliances,1059.18,4,0.11,2023-11-20,Austin
+10000167,Noah Smith,Electronics,3500.24,4,0.28,2023-07-06,Denver
+10000168,Amelia Martinez,Garden,2097.17,3,0.06,2024-02-26,Boston
+10000169,Isabella Johnson,Automotive,1989.11,3,0.23,2023-02-11,Atlanta
+10000170,Amelia Garcia,Books,1091.76,2,0.35,2023-10-31,Denver
+10000171,Harper Hernandez,Garden,255.42,4,0.07,2024-08-12,New York
+10000172,Sophia Miller,Health & Personal Care,3177.05,7,0.35,2025-07-29,Boston
+10000173,Mia Smith,Automotive,3541.1,16,0.04,2025-04-08,Atlanta
+10000174,Noah Gonzalez,Appliances,861.07,13,0.17,2023-02-24,Dallas
+10000175,Mia Garcia,Automotive,19.59,13,0.01,2024-04-20,New York
+10000176,Emma Wilson,Automotive,1085.18,3,0.04,2024-05-24,Seattle
+10000177,Liam Garcia,Clothing,3201.31,13,0.11,2023-07-03,Atlanta
+10000178,Ethan Brown,Appliances,4980.0,2,0.03,2023-02-17,Dallas
+10000179,Lucas Lopez,Electronics,4744.8,7,0.19,2023-03-18,Miami
+10000180,Aiden Brown,Furniture,3262.27,9,0.1,2023-05-06,Seattle
+10000181,Amelia Davis,Clothing,3226.22,20,0.07,2024-08-08,Seattle
+10000182,Mason Garcia,Books,4547.98,13,0.21,2023-10-08,Denver
+10000183,Oliver Williams,Books,4839.02,7,0.22,2023-10-07,San Diego
+10000184,Liam Martinez,Appliances,1774.2,14,0.34,2023-11-04,Seattle
+10000185,Sophia Smith,Automotive,1336.11,7,0.29,2025-05-04,New York
+10000186,Mia Lopez,Automotive,3924.28,4,0.32,2023-04-11,Boston
+10000187,Sophia Williams,Health & Personal Care,1834.19,17,0.26,2025-01-14,Denver
+10000188,Lucas Gonzalez,Electronics,4727.55,3,0.24,2025-03-16,Chicago
+10000189,Olivia Lopez,Appliances,3631.6,12,0.07,2023-09-22,San Diego
+10000190,Mia Miller,Garden,3279.58,5,0.06,2025-06-02,Austin
+10000191,Noah Garcia,Books,1714.87,5,0.3,2024-09-19,Dallas
+10000192,Noah Rodriguez,Electronics,1997.99,18,0.03,2023-12-28,Austin
+10000193,Emma Brown,Clothing,862.09,2,0.34,2023-04-15,San Francisco
+10000194,Liam Rodriguez,Clothing,1718.89,10,0.25,2024-10-02,San Francisco
+10000195,Harper Martinez,Garden,2765.35,10,0.25,2024-01-08,Boston
+10000196,Ethan Garcia,Automotive,1704.85,20,0.06,2025-06-17,San Diego
+10000197,Harper Davis,Appliances,1025.67,5,0.23,2023-04-18,Miami
+10000198,Harper Williams,Industrial,2817.54,11,0.21,2024-09-11,Denver
+10000199,Amelia Garcia,Appliances,1649.98,4,0.21,2024-04-09,Boston
+10000200,Oliver Hernandez,Books,637.49,12,0.21,2025-08-12,San Diego
+10000201,Noah Gonzalez,Clothing,3798.29,13,0.29,2025-03-31,Seattle
+10000202,Aiden Hernandez,Garden,4324.05,19,0.25,2025-06-24,Miami
+10000203,Lucas Miller,Industrial,2641.98,6,0.3,2025-01-18,New York
+10000204,Oliver Jones,Automotive,4920.29,5,0.04,2025-08-16,Denver
+10000205,Mia Hernandez,Automotive,3272.08,5,0.29,2024-11-06,New York
+10000206,Ava Lopez,Industrial,276.72,3,0.29,2023-03-24,New York
+10000207,Aiden Johnson,Furniture,4356.48,7,0.2,2023-06-11,Atlanta
+10000208,Emma Davis,Automotive,2063.51,2,0.12,2024-02-06,Seattle
+10000209,Olivia Brown,Books,433.2,18,0.08,2025-03-19,New York
+10000210,Aiden Gonzalez,Appliances,1195.07,15,0.3,2023-07-26,Atlanta
+10000211,Lucas Martinez,Electronics,2897.52,6,0.3,2023-04-26,Boston
+10000212,Ava Jones,Industrial,2957.32,6,0.06,2023-08-31,Miami
+10000213,Emma Rodriguez,Automotive,4864.32,11,0.22,2024-03-06,Seattle
+10000214,Mason Jones,Electronics,3766.52,19,0.06,2024-06-07,New York
+10000215,Emma Miller,Books,32.11,10,0.06,2023-11-23,Chicago
+10000216,Oliver Miller,Books,3133.93,7,0.03,2024-03-08,Dallas
+10000217,Ava Garcia,Electronics,2576.3,16,0.05,2024-02-16,Miami
+10000218,Isabella Jones,Appliances,2988.04,1,0.32,2023-07-25,Chicago
+10000219,Aiden Williams,Garden,2939.38,15,0.3,2025-01-01,Boston
+10000220,Amelia Miller,Books,3972.9,20,0.11,2025-01-04,Atlanta
+10000221,Ethan Martinez,Books,2172.06,13,0.22,2023-04-17,Austin
+10000222,Olivia Gonzalez,Garden,3325.11,11,0.27,2025-02-20,Dallas
+10000223,Amelia Miller,Automotive,97.49,6,0.25,2023-12-08,San Francisco
+10000224,Amelia Miller,Electronics,4268.33,5,0.11,2023-03-30,Boston
+10000225,Harper Martinez,Garden,1816.39,4,0.03,2025-03-11,Austin
+10000226,Olivia Garcia,Industrial,464.06,13,0.25,2023-04-07,Chicago
+10000227,Amelia Martinez,Health & Personal Care,4196.23,13,0.12,2025-07-05,Denver
+10000228,Noah Wilson,Electronics,2864.93,9,0.26,2023-09-08,Chicago
+10000229,Olivia Lopez,Automotive,4062.88,17,0.03,2024-04-04,Chicago
+10000230,Aiden Gonzalez,Clothing,161.18,15,0.15,2023-08-17,San Diego
+10000231,Isabella Rodriguez,Garden,260.68,11,0.29,2025-05-09,Atlanta
+10000232,Mason Miller,Appliances,4142.82,11,0.1,2024-02-23,Denver
+10000233,Olivia Davis,Appliances,3411.41,14,0.19,2024-03-11,Dallas
+10000234,Mia Smith,Furniture,4992.54,12,0.34,2024-11-16,New York
+10000235,Noah Lopez,Appliances,1527.89,12,0.13,2023-03-13,Austin
+10000236,Aiden Smith,Books,2599.57,8,0.32,2024-02-28,Austin
+10000237,Ava Garcia,Health & Personal Care,3800.95,4,0.27,2024-02-09,Denver
+10000238,Liam Williams,Books,1036.26,5,0.1,2025-01-31,Atlanta
+10000239,Lucas Williams,Health & Personal Care,3306.75,3,0.19,2024-06-24,New York
+10000240,Ava Rodriguez,Automotive,4240.16,1,0.28,2025-01-07,Miami
+10000241,James Brown,Appliances,1643.67,5,0.18,2023-10-31,Miami
+10000242,Harper Gonzalez,Health & Personal Care,782.09,18,0.29,2025-08-27,San Francisco
+10000243,Aiden Jones,Electronics,4258.19,17,0.2,2023-12-18,Chicago
+10000244,Lucas Davis,Clothing,2725.04,17,0.16,2023-02-24,Chicago
+10000245,Mia Wilson,Industrial,4682.48,8,0.27,2023-11-23,Miami
+10000246,Harper Gonzalez,Health & Personal Care,2648.99,5,0.22,2024-11-11,Atlanta
+10000247,Lucas Johnson,Automotive,2661.39,6,0.1,2025-08-05,Austin
+10000248,Amelia Jones,Furniture,535.79,15,0.11,2023-01-24,Atlanta
+10000249,Ava Lopez,Furniture,2849.58,10,0.23,2023-03-26,Miami
+10000250,Ethan Rodriguez,Automotive,276.05,19,0.25,2024-07-31,Dallas
+10000251,Mia Rodriguez,Health & Personal Care,2099.08,1,0.33,2023-12-06,Denver
+10000252,Liam Lopez,Garden,1539.06,20,0.33,2025-08-12,Denver
+10000253,Olivia Gonzalez,Automotive,4567.71,4,0.03,2023-11-26,Miami
+10000254,Lucas Gonzalez,Garden,3568.24,2,0.04,2024-05-07,Seattle
+10000255,Lucas Gonzalez,Industrial,3679.46,12,0.01,2025-07-23,San Diego
+10000256,Mia Gonzalez,Furniture,1715.35,7,0.16,2024-12-17,San Diego
+10000257,Liam Williams,Garden,1533.81,20,0.26,2023-03-29,San Francisco
+10000258,Amelia Johnson,Electronics,3968.14,14,0.11,2024-01-07,Denver
+10000259,Liam Lopez,Garden,853.11,11,0.32,2025-08-31,New York
+10000260,Amelia Martinez,Automotive,2075.14,4,0.11,2024-10-06,Miami
+10000261,Ava Miller,Health & Personal Care,3161.45,13,0.28,2025-01-07,New York
+10000262,Isabella Brown,Books,2776.07,4,0.1,2023-02-19,San Francisco
+10000263,Liam Johnson,Books,656.02,10,0.32,2025-06-17,Atlanta
+10000264,Harper Williams,Clothing,2070.59,11,0.14,2023-05-11,Atlanta
+10000265,Ava Martinez,Industrial,1191.31,7,0.09,2023-10-15,Denver
+10000266,Liam Gonzalez,Appliances,1261.27,20,0.04,2023-07-01,Seattle
+10000267,Mia Garcia,Clothing,4019.08,1,0.26,2023-10-20,Atlanta
+10000268,Noah Rodriguez,Industrial,700.63,6,0.33,2025-03-21,Miami
+10000269,Aiden Gonzalez,Furniture,923.84,19,0.04,2023-08-17,Denver
+10000270,Ava Miller,Garden,1912.06,1,0.34,2024-10-06,Boston
+10000271,Oliver Rodriguez,Garden,2771.31,11,0.11,2023-04-24,Dallas
+10000272,Liam Martinez,Health & Personal Care,2106.52,15,0.35,2023-01-15,Boston
+10000273,Oliver Smith,Industrial,1814.32,15,0.28,2025-05-27,Boston
+10000274,Ethan Smith,Furniture,1378.2,6,0.12,2024-08-20,San Francisco
+10000275,Mason Rodriguez,Automotive,5.1,20,0.19,2025-08-08,Denver
+10000276,Lucas Wilson,Books,1139.44,7,0.16,2025-05-26,Chicago
+10000277,Emma Lopez,Garden,3954.02,18,0.31,2025-09-26,New York
+10000278,Noah Wilson,Electronics,1714.86,6,0.2,2023-09-19,Denver
+10000279,Isabella Martinez,Electronics,3256.53,14,0.32,2024-07-12,New York
+10000280,Amelia Williams,Clothing,1410.97,19,0.1,2023-02-24,Seattle
+10000281,Ava Hernandez,Health & Personal Care,384.58,7,0.19,2023-11-30,Miami
+10000282,Aiden Hernandez,Books,1863.19,15,0.27,2023-12-12,Dallas
+10000283,Sophia Wilson,Electronics,4746.44,5,0.35,2023-04-30,New York
+10000284,Aiden Garcia,Health & Personal Care,3775.8,7,0.04,2024-10-30,Atlanta
+10000285,Aiden Martinez,Industrial,989.59,11,0.19,2023-08-02,Atlanta
+10000286,Amelia Garcia,Health & Personal Care,3415.84,3,0.12,2025-08-18,San Francisco
+10000287,Mia Rodriguez,Health & Personal Care,1819.28,14,0.15,2025-09-11,Chicago
+10000288,Isabella Smith,Clothing,2286.74,19,0.26,2023-04-02,New York
+10000289,Amelia Garcia,Automotive,4263.88,3,0.2,2023-07-31,Dallas
+10000290,Mia Lopez,Furniture,3292.8,9,0.25,2024-11-28,Dallas
+10000291,Sophia Jones,Electronics,4563.54,18,0.2,2025-07-16,Austin
+10000292,Ethan Williams,Automotive,570.25,5,0.23,2023-10-05,San Diego
+10000293,Olivia Wilson,Health & Personal Care,4609.21,10,0.24,2025-06-20,San Diego
+10000294,Noah Johnson,Automotive,2208.13,15,0.31,2023-08-15,New York
+10000295,Sophia Lopez,Industrial,1312.26,8,0.2,2025-04-04,Miami
+10000296,Amelia Gonzalez,Automotive,398.57,2,0.16,2023-12-19,Austin
+10000297,Aiden Lopez,Automotive,619.24,13,0.16,2024-10-01,Dallas
+10000298,Emma Miller,Furniture,662.63,4,0.15,2025-07-17,San Diego
+10000299,Liam Hernandez,Appliances,1027.42,19,0.02,2024-11-11,Atlanta
+10000300,Amelia Hernandez,Books,2554.95,11,0.27,2023-07-23,Denver
+10000301,Amelia Brown,Clothing,4721.93,6,0.32,2023-06-06,Boston
+10000302,Sophia Rodriguez,Automotive,748.7,4,0.23,2024-12-31,San Diego
+10000303,Amelia Smith,Furniture,4564.22,8,0.24,2023-03-30,Austin
+10000304,Oliver Lopez,Garden,4439.35,15,0.26,2023-10-18,San Diego
+10000305,Oliver Garcia,Furniture,3923.14,17,0.26,2023-11-05,Denver
+10000306,James Jones,Electronics,1117.13,14,0.15,2023-03-19,New York
+10000307,Oliver Hernandez,Automotive,1297.98,3,0.3,2024-01-18,Atlanta
+10000308,Ava Wilson,Electronics,646.52,7,0.3,2025-01-04,Atlanta
+10000309,Amelia Williams,Furniture,1092.91,18,0.31,2023-09-02,Boston
+10000310,Sophia Lopez,Electronics,1582.85,7,0.23,2025-06-02,Austin
+10000311,Lucas Martinez,Automotive,3348.47,8,0.3,2024-04-20,New York
+10000312,Harper Garcia,Furniture,1409.95,19,0.29,2023-11-03,San Francisco
+10000313,Mason Garcia,Books,3626.81,4,0.13,2023-12-29,Chicago
+10000314,Mason Rodriguez,Garden,982.65,12,0.34,2023-10-24,Miami
+10000315,Isabella Smith,Electronics,702.17,12,0.21,2023-06-03,Chicago
+10000316,Ava Martinez,Electronics,1401.93,10,0.08,2023-05-08,Miami
+10000317,Isabella Lopez,Clothing,4229.74,17,0.2,2023-06-17,San Diego
+10000318,Liam Brown,Books,4812.51,6,0.1,2024-12-27,San Francisco
+10000319,Oliver Gonzalez,Furniture,405.31,6,0.25,2024-04-19,San Diego
+10000320,Harper Rodriguez,Clothing,2843.47,11,0.09,2023-10-28,Miami
+10000321,Ethan Wilson,Clothing,805.76,1,0.19,2023-03-11,Dallas
+10000322,Ethan Williams,Industrial,4787.0,11,0.01,2023-12-15,New York
+10000323,Ethan Johnson,Clothing,1720.41,9,0.26,2025-07-25,Austin
+10000324,Lucas Smith,Clothing,2958.28,8,0.34,2025-01-15,Miami
+10000325,Harper Brown,Books,3946.04,15,0.07,2025-09-09,Boston
+10000326,James Williams,Furniture,2543.61,7,0.08,2023-05-04,New York
+10000327,Aiden Gonzalez,Furniture,1879.8,19,0.25,2025-06-15,Seattle
+10000328,Ava Wilson,Appliances,1746.39,3,0.04,2025-06-19,Austin
+10000329,Harper Davis,Clothing,1382.6,17,0.11,2025-03-26,Seattle
+10000330,James Johnson,Health & Personal Care,633.44,19,0.3,2025-06-26,Austin
+10000331,Ava Wilson,Industrial,1372.39,3,0.03,2023-04-15,Chicago
+10000332,Harper Garcia,Books,2546.05,8,0.24,2023-12-08,Austin
+10000333,Oliver Gonzalez,Garden,3739.24,19,0.12,2024-03-12,Chicago
+10000334,Lucas Johnson,Automotive,2755.84,20,0.11,2024-09-23,Dallas
+10000335,Mia Williams,Furniture,1030.93,16,0.33,2025-03-04,Atlanta
+10000336,Mason Miller,Garden,1508.38,2,0.29,2025-08-22,San Francisco
+10000337,Ava Davis,Books,3277.46,6,0.09,2024-02-17,New York
+10000338,Harper Davis,Appliances,3345.76,9,0.03,2025-05-10,Seattle
+10000339,Oliver Gonzalez,Electronics,223.11,11,0.26,2024-02-15,Chicago
+10000340,Olivia Wilson,Appliances,1506.48,7,0.15,2025-02-12,Chicago
+10000341,James Martinez,Furniture,1810.28,3,0.29,2025-02-21,New York
+10000342,Liam Brown,Appliances,4242.19,4,0.3,2023-08-08,Miami
+10000343,Sophia Johnson,Industrial,825.91,3,0.22,2023-01-30,Atlanta
+10000344,Mia Johnson,Health & Personal Care,3564.73,3,0.04,2023-05-09,New York
+10000345,Aiden Smith,Clothing,2994.46,2,0.34,2023-07-23,New York
+10000346,Sophia Johnson,Clothing,734.33,19,0.19,2023-09-02,Denver
+10000347,Oliver Hernandez,Garden,4809.67,15,0.14,2024-05-23,Austin
+10000348,Liam Smith,Clothing,4471.13,18,0.17,2024-04-11,Atlanta
+10000349,Noah Garcia,Appliances,1136.15,15,0.06,2023-03-17,Denver
+10000350,Mason Gonzalez,Electronics,4802.92,8,0.3,2023-12-04,Atlanta
+10000351,Noah Johnson,Automotive,589.68,4,0.02,2024-02-24,Atlanta
+10000352,Mason Lopez,Books,4891.54,7,0.17,2024-03-18,Miami
+10000353,Sophia Smith,Industrial,1929.09,9,0.16,2024-11-23,Dallas
+10000354,Sophia Jones,Garden,3861.35,11,0.3,2023-10-27,Boston
+10000355,Olivia Garcia,Books,4714.47,19,0.24,2023-06-08,San Francisco
+10000356,Isabella Hernandez,Appliances,2916.31,7,0.26,2024-08-15,Atlanta
+10000357,Oliver Martinez,Electronics,2344.54,11,0.1,2024-05-29,Austin
+10000358,Isabella Martinez,Furniture,3911.27,7,0.05,2024-08-19,Dallas
+10000359,Harper Davis,Industrial,4351.34,4,0.05,2023-10-10,Austin
+10000360,Liam Williams,Industrial,23.59,7,0.13,2025-07-05,Dallas
+10000361,Mason Miller,Furniture,1668.19,20,0.06,2023-06-27,Miami
+10000362,Olivia Miller,Health & Personal Care,1321.77,1,0.08,2025-02-01,San Francisco
+10000363,Isabella Wilson,Furniture,1484.88,4,0.22,2024-11-02,Denver
+10000364,Aiden Smith,Appliances,1512.33,10,0.04,2025-04-08,San Francisco
+10000365,Mia Rodriguez,Appliances,3873.72,13,0.35,2025-09-17,Denver
+10000366,Aiden Garcia,Clothing,4922.76,17,0.26,2023-05-04,Seattle
+10000367,Mia Hernandez,Appliances,2696.46,19,0.05,2023-02-08,Atlanta
+10000368,Oliver Wilson,Health & Personal Care,4495.47,4,0.02,2023-10-19,Atlanta
+10000369,Aiden Hernandez,Furniture,4253.54,17,0.17,2023-08-25,San Diego
+10000370,Mason Johnson,Books,4704.25,5,0.28,2025-03-24,Dallas
+10000371,Emma Davis,Health & Personal Care,1676.89,1,0.32,2024-03-17,Atlanta
+10000372,Amelia Lopez,Health & Personal Care,272.37,19,0.04,2023-05-01,Boston
+10000373,Amelia Rodriguez,Appliances,444.78,11,0.15,2024-07-24,Atlanta
+10000374,Ava Rodriguez,Electronics,3119.98,10,0.05,2023-02-05,Miami
+10000375,Sophia Garcia,Garden,2850.17,9,0.22,2025-01-01,New York
+10000376,Lucas Davis,Appliances,379.01,4,0.23,2025-01-05,San Diego
+10000377,Lucas Rodriguez,Garden,870.99,20,0.32,2023-06-19,New York
+10000378,Olivia Johnson,Furniture,3090.46,16,0.05,2023-06-02,Boston
+10000379,Lucas Davis,Clothing,2464.86,12,0.27,2023-04-24,Denver
+10000380,Oliver Hernandez,Industrial,4629.38,1,0.1,2023-06-06,Miami
+10000381,Ava Davis,Appliances,4868.44,4,0.17,2024-03-01,New York
+10000382,Ava Miller,Industrial,10.28,9,0.23,2024-05-04,Atlanta
+10000383,Liam Miller,Books,1601.84,5,0.2,2024-05-26,Atlanta
+10000384,Mason Smith,Books,902.3,5,0.01,2023-02-05,Atlanta
+10000385,Ava Hernandez,Books,4024.87,10,0.33,2023-07-14,Atlanta
+10000386,Aiden Davis,Clothing,3817.01,20,0.17,2023-12-07,Dallas
+10000387,Olivia Johnson,Garden,2259.17,8,0.18,2023-12-16,Seattle
+10000388,Lucas Martinez,Clothing,3655.35,1,0.24,2023-07-24,San Francisco
+10000389,Ethan Jones,Health & Personal Care,3768.23,16,0.06,2024-07-22,Denver
+10000390,Oliver Davis,Industrial,1298.0,19,0.29,2025-05-05,Dallas
+10000391,Mia Davis,Clothing,3741.1,1,0.17,2025-07-04,Chicago
+10000392,Oliver Smith,Industrial,3576.86,2,0.22,2024-03-03,Chicago
+10000393,James Wilson,Clothing,494.31,5,0.3,2024-09-29,San Francisco
+10000394,Aiden Garcia,Health & Personal Care,256.15,7,0.12,2024-10-01,Austin
+10000395,James Wilson,Books,1808.19,4,0.35,2024-07-13,Dallas
+10000396,Ava Gonzalez,Automotive,3197.41,5,0.13,2023-12-27,Miami
+10000397,Emma Brown,Electronics,3272.64,1,0.02,2023-06-01,Boston
+10000398,Oliver Williams,Automotive,4076.9,8,0.29,2023-07-02,Seattle
+10000399,Olivia Gonzalez,Industrial,1621.96,6,0.03,2025-06-11,New York
+10000400,Aiden Brown,Automotive,4011.19,7,0.16,2023-04-25,Chicago
+10000401,Oliver Johnson,Books,1755.36,18,0.27,2024-04-18,Miami
+10000402,Mia Brown,Furniture,1985.14,10,0.23,2023-10-14,Atlanta
+10000403,Aiden Jones,Garden,1218.57,11,0.25,2024-08-31,San Diego
+10000404,Liam Jones,Health & Personal Care,1485.22,13,0.28,2023-04-04,Seattle
+10000405,Olivia Miller,Health & Personal Care,1551.07,12,0.32,2024-04-22,San Francisco
+10000406,Lucas Rodriguez,Electronics,3680.75,10,0.24,2025-04-30,Austin
+10000407,Ava Rodriguez,Clothing,3376.67,17,0.33,2024-09-09,San Diego
+10000408,Harper Rodriguez,Automotive,3354.35,11,0.23,2024-03-26,Seattle
+10000409,Mia Brown,Garden,2144.73,2,0.07,2025-02-03,Dallas
+10000410,Harper Lopez,Automotive,3134.55,4,0.34,2023-02-16,San Diego
+10000411,Liam Hernandez,Electronics,4378.33,10,0.07,2024-10-18,Miami
+10000412,Sophia Miller,Clothing,3513.93,16,0.12,2023-07-26,Chicago
+10000413,Ava Jones,Furniture,4703.53,15,0.2,2023-12-28,Miami
+10000414,James Garcia,Garden,3697.85,16,0.15,2024-02-18,Atlanta
+10000415,Aiden Hernandez,Appliances,343.59,7,0.33,2024-07-08,New York
+10000416,Isabella Miller,Automotive,3659.39,7,0.0,2025-03-19,San Diego
+10000417,Ava Garcia,Electronics,4231.91,3,0.13,2023-03-04,San Francisco
+10000418,Harper Rodriguez,Electronics,4359.85,4,0.17,2024-08-09,Boston
+10000419,Ava Garcia,Industrial,2131.9,6,0.32,2025-09-20,Miami
+10000420,Mason Hernandez,Electronics,176.08,11,0.11,2025-01-24,Dallas
+10000421,Sophia Smith,Industrial,1428.89,18,0.34,2023-10-19,Dallas
+10000422,Lucas Smith,Electronics,2981.63,9,0.19,2023-11-15,Denver
+10000423,Isabella Garcia,Furniture,290.23,20,0.02,2024-04-21,Chicago
+10000424,Sophia Smith,Automotive,3878.02,8,0.11,2025-01-24,Denver
+10000425,James Gonzalez,Books,2498.78,13,0.11,2023-02-09,San Francisco
+10000426,Liam Johnson,Appliances,1749.72,8,0.18,2023-03-03,San Diego
+10000427,Isabella Rodriguez,Automotive,4189.18,6,0.04,2024-02-21,Denver
+10000428,James Hernandez,Industrial,4701.39,7,0.29,2023-08-24,Atlanta
+10000429,Lucas Johnson,Appliances,4873.09,2,0.22,2025-02-22,San Francisco
+10000430,Oliver Wilson,Furniture,3106.42,2,0.05,2025-04-08,Chicago
+10000431,Sophia Garcia,Electronics,2811.38,9,0.34,2025-06-18,San Diego
+10000432,Oliver Gonzalez,Health & Personal Care,1424.97,4,0.03,2024-09-26,Chicago
+10000433,Olivia Smith,Appliances,5.34,20,0.21,2023-11-08,Dallas
+10000434,Noah Davis,Furniture,2122.37,19,0.04,2023-11-08,Atlanta
+10000435,James Gonzalez,Furniture,3311.79,12,0.23,2025-07-15,Denver
+10000436,Oliver Garcia,Books,4571.72,10,0.14,2024-10-04,Atlanta
+10000437,Liam Lopez,Books,1427.02,18,0.0,2023-05-27,Dallas
+10000438,Emma Jones,Health & Personal Care,296.05,19,0.15,2025-03-25,Seattle
+10000439,Oliver Lopez,Clothing,2064.41,8,0.28,2023-06-30,Atlanta
+10000440,Olivia Lopez,Industrial,4451.89,7,0.34,2023-08-07,Austin
+10000441,Mia Smith,Industrial,913.41,8,0.34,2023-02-19,Seattle
+10000442,Amelia Davis,Books,4280.38,2,0.25,2025-05-06,New York
+10000443,Amelia Martinez,Automotive,2010.01,15,0.26,2023-11-01,Boston
+10000444,Ava Smith,Books,3085.65,4,0.08,2024-08-06,Seattle
+10000445,Isabella Martinez,Health & Personal Care,2042.93,1,0.33,2025-04-04,San Diego
+10000446,Amelia Rodriguez,Appliances,2025.65,9,0.27,2023-07-22,San Diego
+10000447,Mia Miller,Books,177.32,14,0.35,2024-11-27,Chicago
+10000448,Mia Gonzalez,Books,1325.6,7,0.3,2023-04-24,Miami
+10000449,Lucas Miller,Garden,2384.3,20,0.26,2023-06-16,Atlanta
+10000450,Isabella Jones,Automotive,4669.77,16,0.04,2025-02-24,Dallas
+10000451,Sophia Wilson,Automotive,1295.79,20,0.23,2025-09-10,New York
+10000452,Liam Martinez,Appliances,1075.39,11,0.25,2023-06-06,Dallas
+10000453,Emma Martinez,Books,213.32,16,0.22,2024-11-05,Seattle
+10000454,Aiden Jones,Electronics,104.09,15,0.27,2024-01-22,Seattle
+10000455,Olivia Johnson,Electronics,570.62,9,0.14,2023-03-27,Denver
+10000456,Olivia Johnson,Health & Personal Care,676.81,5,0.27,2023-11-04,San Francisco
+10000457,Ava Miller,Automotive,3150.61,7,0.05,2024-02-15,Austin
+10000458,Liam Hernandez,Furniture,1974.69,20,0.24,2023-04-26,Dallas
+10000459,Aiden Lopez,Health & Personal Care,3592.27,12,0.1,2025-02-04,Boston
+10000460,Isabella Williams,Automotive,440.08,19,0.24,2025-03-09,Boston
+10000461,Ethan Johnson,Industrial,2687.84,4,0.04,2023-09-05,San Diego
+10000462,Lucas Wilson,Appliances,4167.37,12,0.24,2025-03-26,New York
+10000463,James Miller,Electronics,4634.51,11,0.1,2024-12-30,Miami
+10000464,James Smith,Electronics,2983.32,9,0.03,2024-07-28,Miami
+10000465,Liam Jones,Electronics,1649.3,4,0.33,2024-01-12,New York
+10000466,Oliver Miller,Electronics,1064.58,5,0.28,2023-06-08,New York
+10000467,Noah Martinez,Electronics,784.06,17,0.03,2025-04-30,San Francisco
+10000468,Mason Jones,Electronics,2035.62,10,0.09,2023-07-03,Miami
+10000469,Harper Martinez,Garden,536.94,5,0.14,2023-07-27,San Diego
+10000470,James Brown,Electronics,3424.84,5,0.14,2025-08-14,Atlanta
+10000471,Oliver Wilson,Health & Personal Care,1193.34,17,0.34,2024-01-14,Boston
+10000472,James Davis,Furniture,3883.32,15,0.12,2024-09-05,Miami
+10000473,Harper Williams,Appliances,3350.15,20,0.04,2023-07-30,Miami
+10000474,James Gonzalez,Books,4362.02,6,0.22,2024-12-30,Boston
+10000475,Ava Garcia,Health & Personal Care,3966.28,8,0.04,2024-06-30,Chicago
+10000476,Oliver Johnson,Furniture,1964.44,2,0.07,2024-04-23,San Francisco
+10000477,Aiden Hernandez,Furniture,4775.08,14,0.17,2025-02-21,Boston
+10000478,Oliver Davis,Clothing,3165.92,2,0.18,2024-12-30,Miami
+10000479,Harper Hernandez,Furniture,4214.71,8,0.28,2024-05-26,Boston
+10000480,Noah Johnson,Electronics,112.0,11,0.27,2023-10-17,Atlanta
+10000481,Ava Smith,Appliances,3026.21,4,0.2,2025-01-29,New York
+10000482,Isabella Miller,Clothing,4470.96,3,0.26,2024-03-24,Chicago
+10000483,Amelia Martinez,Electronics,3863.89,3,0.12,2025-01-17,Chicago
+10000484,Ethan Davis,Appliances,2724.41,13,0.26,2024-12-22,New York
+10000485,Mason Hernandez,Garden,167.6,6,0.35,2024-08-15,Chicago
+10000486,Mia Johnson,Furniture,3627.7,20,0.16,2023-07-16,Atlanta
+10000487,Olivia Hernandez,Industrial,1471.33,10,0.13,2025-01-12,Boston
+10000488,Aiden Johnson,Automotive,4750.07,10,0.35,2023-12-25,Denver
+10000489,Sophia Lopez,Garden,502.04,7,0.31,2024-11-17,San Francisco
+10000490,Lucas Rodriguez,Furniture,4575.71,5,0.33,2023-10-10,Seattle
+10000491,Isabella Davis,Appliances,1438.05,6,0.17,2023-02-21,New York
+10000492,Olivia Brown,Clothing,4151.69,14,0.24,2024-06-26,San Diego
+10000493,Amelia Hernandez,Furniture,998.61,20,0.09,2025-09-04,San Francisco
+10000494,Mia Rodriguez,Books,1328.68,8,0.09,2023-08-31,Miami
+10000495,Oliver Davis,Clothing,3185.16,8,0.34,2023-03-05,Miami
+10000496,Noah Garcia,Automotive,780.52,3,0.18,2024-05-30,Atlanta
+10000497,James Brown,Industrial,1694.78,9,0.11,2025-08-23,Atlanta
+10000498,Emma Gonzalez,Automotive,3149.57,4,0.12,2023-05-23,Austin
+10000499,James Hernandez,Clothing,914.87,1,0.0,2023-08-14,Boston
+10000500,Lucas Gonzalez,Automotive,2243.69,1,0.09,2023-01-11,San Francisco
+10000501,Noah Brown,Industrial,1300.52,11,0.19,2024-11-20,Dallas
+10000502,Isabella Davis,Garden,3277.81,4,0.11,2023-11-26,Denver
+10000503,Mason Wilson,Furniture,879.22,16,0.07,2023-11-11,New York
+10000504,Noah Johnson,Books,3150.97,12,0.24,2024-03-23,Boston
+10000505,Noah Jones,Garden,3900.15,6,0.35,2025-09-15,New York
+10000506,Amelia Jones,Clothing,4343.61,12,0.29,2025-08-10,New York
+10000507,Noah Martinez,Garden,3482.46,4,0.12,2025-04-13,Denver
+10000508,Ava Williams,Furniture,4289.45,11,0.23,2024-09-16,San Diego
+10000509,Harper Williams,Health & Personal Care,1469.12,14,0.09,2025-04-24,Chicago
+10000510,Harper Rodriguez,Clothing,4517.95,10,0.32,2025-04-09,Seattle
+10000511,Olivia Brown,Industrial,2950.51,13,0.22,2025-01-17,Denver
+10000512,Ethan Brown,Industrial,69.06,10,0.12,2025-05-31,Dallas
+10000513,Lucas Smith,Garden,100.38,9,0.06,2025-02-19,Atlanta
+10000514,Amelia Wilson,Industrial,4451.65,5,0.18,2024-10-05,Dallas
+10000515,Oliver Hernandez,Health & Personal Care,3495.94,9,0.02,2025-06-30,Boston
+10000516,Emma Hernandez,Automotive,2820.21,13,0.17,2024-01-21,Dallas
+10000517,Oliver Martinez,Industrial,1498.82,14,0.07,2025-06-13,Austin
+10000518,Lucas Miller,Appliances,4213.92,15,0.15,2025-07-23,San Francisco
+10000519,Ava Martinez,Health & Personal Care,4331.33,14,0.15,2025-03-04,Seattle
+10000520,Amelia Lopez,Furniture,369.54,11,0.04,2023-01-17,Chicago
+10000521,Lucas Smith,Clothing,1818.19,5,0.17,2025-07-07,New York
+10000522,Isabella Williams,Furniture,2084.47,12,0.33,2025-01-15,Denver
+10000523,James Garcia,Health & Personal Care,4881.54,2,0.03,2025-06-03,Miami
+10000524,James Williams,Automotive,486.83,20,0.25,2025-06-25,Boston
+10000525,Harper Rodriguez,Health & Personal Care,612.79,15,0.05,2025-09-17,Seattle
+10000526,Liam Martinez,Automotive,202.19,10,0.17,2024-10-27,Dallas
+10000527,Amelia Johnson,Health & Personal Care,3671.65,13,0.34,2025-06-21,Dallas
+10000528,Mason Smith,Garden,3667.24,14,0.13,2025-08-22,Seattle
+10000529,Oliver Brown,Books,4801.42,11,0.04,2024-11-26,Seattle
+10000530,Emma Jones,Furniture,1904.6,4,0.21,2025-03-15,Austin
+10000531,Harper Martinez,Garden,2637.62,6,0.11,2024-01-08,Seattle
+10000532,Emma Williams,Automotive,4463.67,3,0.28,2025-01-26,Boston
+10000533,Emma Miller,Clothing,3676.61,20,0.21,2025-09-19,San Francisco
+10000534,Emma Brown,Industrial,3689.19,9,0.17,2025-07-02,Boston
+10000535,Aiden Williams,Automotive,251.49,11,0.13,2024-02-08,New York
+10000536,Mia Johnson,Appliances,4446.29,9,0.11,2024-07-24,San Francisco
+10000537,Olivia Hernandez,Health & Personal Care,4770.84,15,0.32,2024-08-17,San Diego
+10000538,Olivia Gonzalez,Garden,1017.91,20,0.2,2023-02-05,Denver
+10000539,Olivia Smith,Books,2079.41,8,0.02,2024-04-17,San Francisco
+10000540,Mason Garcia,Garden,593.65,8,0.2,2025-09-17,New York
+10000541,Lucas Williams,Health & Personal Care,1716.85,9,0.06,2025-04-12,Seattle
+10000542,Olivia Jones,Automotive,2436.77,14,0.33,2025-07-25,New York
+10000543,Amelia Brown,Furniture,4244.98,2,0.17,2023-11-13,San Diego
+10000544,Olivia Jones,Health & Personal Care,2218.93,14,0.25,2025-03-02,Denver
+10000545,Ava Smith,Health & Personal Care,4371.08,10,0.26,2023-01-27,New York
+10000546,Harper Brown,Furniture,1990.07,4,0.32,2025-06-30,Atlanta
+10000547,Sophia Miller,Furniture,4814.61,19,0.1,2025-04-16,New York
+10000548,Oliver Jones,Health & Personal Care,3442.19,13,0.06,2023-04-19,New York
+10000549,Liam Rodriguez,Furniture,3523.52,14,0.34,2025-01-26,San Diego
+10000550,Amelia Lopez,Clothing,3657.96,8,0.34,2024-09-30,Boston
+10000551,Liam Miller,Furniture,1433.1,20,0.07,2024-12-02,Miami
+10000552,Noah Garcia,Industrial,1453.91,1,0.19,2023-12-30,Austin
+10000553,Noah Smith,Furniture,513.01,4,0.26,2023-02-18,San Francisco
+10000554,Olivia Rodriguez,Garden,1830.25,14,0.27,2025-01-09,Atlanta
+10000555,Ethan Rodriguez,Health & Personal Care,1990.12,2,0.33,2025-04-02,Chicago
+10000556,Sophia Johnson,Electronics,2812.83,15,0.19,2023-12-07,Austin
+10000557,Ethan Garcia,Books,1908.81,15,0.27,2024-05-30,New York
+10000558,Mia Wilson,Industrial,1271.15,14,0.16,2024-08-10,Atlanta
+10000559,Emma Wilson,Appliances,363.35,15,0.3,2023-07-05,San Diego
+10000560,Ava Miller,Electronics,3581.69,18,0.1,2025-02-28,Dallas
+10000561,Sophia Martinez,Clothing,1827.66,11,0.16,2025-07-19,Dallas
+10000562,Ethan Davis,Automotive,4862.86,3,0.04,2024-05-20,Denver
+10000563,Olivia Brown,Books,2864.11,5,0.05,2023-11-16,Denver
+10000564,Oliver Miller,Electronics,448.7,13,0.32,2023-06-16,Boston
+10000565,Isabella Davis,Clothing,2313.7,17,0.07,2025-04-20,Atlanta
+10000566,Oliver Brown,Electronics,4130.6,6,0.32,2024-10-11,Dallas
+10000567,Noah Johnson,Automotive,23.74,7,0.13,2024-01-19,San Diego
+10000568,Mia Williams,Garden,4947.46,17,0.24,2024-07-16,Austin
+10000569,Ethan Lopez,Industrial,4821.16,17,0.14,2023-12-24,Seattle
+10000570,Olivia Gonzalez,Clothing,1651.99,9,0.1,2024-04-16,New York
+10000571,Amelia Davis,Automotive,1118.66,13,0.03,2024-10-15,San Diego
+10000572,Emma Johnson,Appliances,2504.07,4,0.32,2024-01-20,Miami
+10000573,Isabella Wilson,Books,2545.37,8,0.17,2024-08-11,Atlanta
+10000574,Mia Gonzalez,Garden,2154.76,7,0.3,2025-07-27,Boston
+10000575,Harper Garcia,Furniture,2491.29,6,0.1,2025-03-29,San Diego
+10000576,Oliver Brown,Industrial,1313.8,1,0.21,2024-01-31,Atlanta
+10000577,Sophia Davis,Electronics,668.45,7,0.1,2023-03-23,Denver
+10000578,Aiden Williams,Industrial,477.68,17,0.27,2024-09-26,Austin
+10000579,Mason Brown,Furniture,590.64,17,0.01,2023-01-27,Seattle
+10000580,Mia Rodriguez,Books,679.17,16,0.11,2024-03-01,San Francisco
+10000581,Sophia Williams,Appliances,4527.36,19,0.16,2024-10-23,San Diego
+10000582,James Miller,Garden,1636.59,5,0.01,2023-05-02,San Francisco
+10000583,Sophia Lopez,Clothing,2642.85,2,0.09,2023-03-22,Denver
+10000584,Aiden Smith,Automotive,1802.32,15,0.11,2025-05-08,Austin
+10000585,Ethan Miller,Furniture,3989.33,12,0.34,2025-08-17,Chicago
+10000586,Lucas Jones,Electronics,3721.7,13,0.21,2023-04-18,Denver
+10000587,Amelia Lopez,Automotive,902.19,7,0.25,2025-03-14,New York
+10000588,Sophia Jones,Clothing,4376.06,20,0.29,2024-09-25,Chicago
+10000589,Olivia Martinez,Health & Personal Care,586.34,12,0.13,2023-07-07,Seattle
+10000590,Isabella Brown,Clothing,3979.54,8,0.25,2025-07-26,San Diego
+10000591,Amelia Hernandez,Automotive,344.43,18,0.19,2023-03-19,Atlanta
+10000592,Oliver Johnson,Health & Personal Care,1330.53,10,0.27,2025-01-17,Seattle
+10000593,Amelia Rodriguez,Automotive,1018.32,1,0.19,2025-04-28,Chicago
+10000594,Amelia Johnson,Garden,4077.16,12,0.08,2023-03-06,Denver
+10000595,Sophia Martinez,Appliances,2409.49,15,0.23,2025-08-06,Chicago
+10000596,Mason Garcia,Clothing,2191.47,13,0.01,2025-06-26,San Diego
+10000597,Mason Miller,Furniture,2063.24,13,0.26,2024-08-19,Dallas
+10000598,Oliver Jones,Furniture,1508.46,15,0.14,2025-06-08,San Diego
+10000599,Aiden Williams,Clothing,3922.14,16,0.17,2023-06-03,Seattle
+10000600,Mia Rodriguez,Garden,4031.21,10,0.17,2025-04-04,Austin
+10000601,Oliver Williams,Garden,149.04,3,0.0,2023-12-10,Dallas
+10000602,Ethan Rodriguez,Health & Personal Care,1931.21,17,0.14,2024-01-28,Austin
+10000603,Mason Johnson,Health & Personal Care,227.81,11,0.31,2024-02-11,Austin
+10000604,Mason Davis,Clothing,3067.12,14,0.23,2023-01-05,Dallas
+10000605,Noah Williams,Electronics,2656.23,9,0.25,2023-05-25,Miami
+10000606,Aiden Smith,Clothing,1235.0,3,0.09,2025-07-07,Austin
+10000607,Oliver Rodriguez,Automotive,3185.97,6,0.16,2024-02-25,Denver
+10000608,Amelia Jones,Clothing,2749.14,17,0.12,2024-07-22,New York
+10000609,Liam Brown,Books,2428.72,15,0.04,2024-04-24,Boston
+10000610,Amelia Johnson,Clothing,3468.96,12,0.23,2023-03-20,San Diego
+10000611,Harper Smith,Electronics,1725.6,11,0.17,2023-08-19,Austin
+10000612,Mia Lopez,Books,376.76,16,0.08,2023-06-16,Chicago
+10000613,Mason Johnson,Appliances,2982.25,4,0.22,2023-01-21,San Diego
+10000614,Emma Smith,Garden,2683.73,5,0.27,2025-06-22,New York
+10000615,Olivia Miller,Garden,2142.08,14,0.05,2025-09-02,Seattle
+10000616,Liam Davis,Books,3540.91,13,0.32,2023-08-23,Seattle
+10000617,Aiden Hernandez,Garden,4063.88,16,0.17,2023-01-10,Dallas
+10000618,Noah Rodriguez,Appliances,3179.85,17,0.18,2024-08-10,Chicago
+10000619,Mason Williams,Electronics,3821.06,18,0.29,2024-07-31,Atlanta
+10000620,Isabella Martinez,Books,4497.03,16,0.24,2025-01-26,San Francisco
+10000621,Isabella Gonzalez,Electronics,1530.85,17,0.17,2023-02-08,Denver
+10000622,Harper Smith,Furniture,1423.56,16,0.07,2024-07-24,Seattle
+10000623,Mia Wilson,Appliances,812.35,9,0.17,2023-04-19,Seattle
+10000624,Mia Jones,Health & Personal Care,4628.75,13,0.04,2023-11-10,Seattle
+10000625,Olivia Gonzalez,Appliances,4338.36,11,0.34,2023-02-24,Dallas
+10000626,James Lopez,Furniture,4448.58,9,0.01,2023-12-25,Seattle
+10000627,Sophia Garcia,Automotive,4470.9,15,0.05,2024-09-05,Boston
+10000628,Olivia Wilson,Clothing,2403.06,2,0.09,2024-10-22,Chicago
+10000629,Ethan Gonzalez,Books,1991.69,8,0.03,2025-07-10,Atlanta
+10000630,Emma Martinez,Automotive,3058.48,19,0.05,2023-12-26,Boston
+10000631,Sophia Jones,Furniture,409.78,7,0.18,2024-05-18,San Francisco
+10000632,Noah Davis,Electronics,1378.49,4,0.02,2024-12-03,Chicago
+10000633,Liam Lopez,Industrial,1742.74,4,0.01,2025-07-12,Atlanta
+10000634,Emma Rodriguez,Automotive,4927.06,2,0.28,2024-05-03,Austin
+10000635,Liam Smith,Automotive,4408.58,19,0.33,2025-03-12,Austin
+10000636,James Lopez,Industrial,4105.86,8,0.26,2024-12-01,New York
+10000637,Ava Williams,Clothing,3586.29,3,0.25,2025-01-10,New York
+10000638,Harper Lopez,Furniture,2272.95,3,0.32,2025-06-15,Dallas
+10000639,Noah Wilson,Automotive,277.94,19,0.29,2024-09-14,Boston
+10000640,Ethan Williams,Books,2362.17,7,0.34,2023-08-22,Chicago
+10000641,Aiden Hernandez,Clothing,4818.87,11,0.02,2024-04-22,San Diego
+10000642,Amelia Wilson,Books,3784.37,15,0.28,2024-11-04,Dallas
+10000643,Olivia Davis,Clothing,4972.61,7,0.34,2024-05-04,Atlanta
+10000644,Ava Lopez,Electronics,3770.6,5,0.1,2023-09-14,Boston
+10000645,Sophia Gonzalez,Books,3564.93,5,0.2,2023-12-28,Chicago
+10000646,James Lopez,Appliances,1778.41,11,0.07,2024-07-25,Seattle
+10000647,Ava Williams,Books,3623.93,15,0.2,2023-08-30,Austin
+10000648,Aiden Johnson,Automotive,1223.15,8,0.04,2024-04-25,Chicago
+10000649,Ethan Rodriguez,Furniture,711.74,14,0.28,2024-03-05,San Francisco
+10000650,Lucas Martinez,Furniture,131.15,17,0.12,2024-10-08,Denver
+10000651,Lucas Brown,Clothing,1353.49,9,0.29,2025-01-03,San Francisco
+10000652,Lucas Rodriguez,Clothing,3219.87,5,0.25,2024-12-23,Denver
+10000653,Mia Brown,Books,863.78,3,0.29,2025-09-02,Atlanta
+10000654,Isabella Miller,Automotive,580.23,8,0.14,2025-06-14,Seattle
+10000655,Aiden Brown,Health & Personal Care,764.37,4,0.1,2023-02-05,San Francisco
+10000656,Mason Brown,Books,4438.15,20,0.09,2024-02-14,Seattle
+10000657,Harper Johnson,Garden,1769.84,10,0.07,2024-03-19,Boston
+10000658,Ava Davis,Furniture,4964.55,14,0.13,2023-01-06,Austin
+10000659,Mia Gonzalez,Books,2367.37,7,0.24,2023-08-19,Atlanta
+10000660,Ava Miller,Garden,2017.84,5,0.14,2025-07-11,Chicago
+10000661,Harper Williams,Health & Personal Care,4697.66,8,0.15,2024-09-10,New York
+10000662,Ethan Williams,Appliances,4921.6,13,0.23,2023-05-17,Denver
+10000663,Ethan Garcia,Electronics,4173.53,14,0.1,2023-10-24,New York
+10000664,Lucas Lopez,Appliances,3396.19,11,0.03,2024-12-02,San Diego
+10000665,Liam Smith,Appliances,4168.74,2,0.04,2023-07-11,San Francisco
+10000666,Amelia Hernandez,Books,4374.17,4,0.15,2024-11-24,Seattle
+10000667,Lucas Smith,Health & Personal Care,1443.22,13,0.33,2024-09-26,Miami
+10000668,Liam Rodriguez,Clothing,1865.04,13,0.28,2025-03-12,Chicago
+10000669,Aiden Hernandez,Books,983.31,11,0.2,2023-04-07,Dallas
+10000670,Aiden Hernandez,Electronics,103.53,12,0.21,2025-03-27,Chicago
+10000671,Ava Lopez,Automotive,4760.37,8,0.06,2023-09-10,Miami
+10000672,Harper Miller,Appliances,3893.19,15,0.13,2023-02-24,Boston
+10000673,Sophia Gonzalez,Appliances,1986.02,17,0.2,2024-06-16,Boston
+10000674,Ethan Martinez,Books,3453.15,11,0.3,2025-06-07,San Francisco
+10000675,Sophia Brown,Books,4363.42,19,0.2,2025-08-28,Denver
+10000676,Liam Rodriguez,Electronics,1795.76,9,0.14,2023-07-15,Denver
+10000677,James Garcia,Books,3557.3,11,0.0,2024-11-14,San Francisco
+10000678,Aiden Jones,Electronics,4670.44,11,0.03,2024-10-25,Chicago
+10000679,Lucas Johnson,Automotive,4532.78,19,0.15,2025-03-18,San Diego
+10000680,Sophia Rodriguez,Furniture,203.53,20,0.02,2025-01-03,Denver
+10000681,Harper Garcia,Garden,3691.62,10,0.22,2023-10-25,Chicago
+10000682,Sophia Gonzalez,Furniture,786.5,3,0.1,2024-08-30,San Diego
+10000683,Emma Brown,Appliances,4745.38,18,0.0,2023-02-24,Chicago
+10000684,Olivia Smith,Appliances,4102.76,12,0.02,2024-06-02,New York
+10000685,Mia Jones,Electronics,2125.66,9,0.34,2024-03-16,New York
+10000686,Ava Wilson,Electronics,3467.35,3,0.25,2023-12-20,Dallas
+10000687,Olivia Johnson,Clothing,3952.92,5,0.23,2024-08-05,Atlanta
+10000688,Noah Lopez,Automotive,4989.42,13,0.23,2023-11-11,Austin
+10000689,Oliver Brown,Clothing,3284.14,7,0.33,2024-07-30,Atlanta
+10000690,Mason Brown,Health & Personal Care,2198.03,18,0.34,2024-06-23,Atlanta
+10000691,James Wilson,Clothing,4693.63,9,0.33,2024-02-24,Chicago
+10000692,Sophia Johnson,Clothing,3089.76,14,0.16,2023-08-17,Denver
+10000693,Emma Lopez,Health & Personal Care,3591.14,5,0.1,2023-02-14,Austin
+10000694,Mia Lopez,Appliances,3320.17,15,0.04,2025-06-02,Miami
+10000695,Lucas Jones,Furniture,3270.69,19,0.32,2025-06-27,San Diego
+10000696,Liam Gonzalez,Appliances,4758.74,14,0.0,2023-04-11,Atlanta
+10000697,Aiden Williams,Books,2616.24,12,0.33,2023-11-04,Miami
+10000698,Emma Rodriguez,Health & Personal Care,3724.8,20,0.3,2024-08-15,Boston
+10000699,Liam Smith,Electronics,2085.59,10,0.03,2023-08-23,San Francisco
+10000700,Noah Johnson,Clothing,3684.58,20,0.26,2023-09-15,Austin
+10000701,Lucas Martinez,Industrial,2560.74,16,0.15,2024-08-16,Atlanta
+10000702,Sophia Martinez,Books,2711.0,17,0.03,2023-03-02,Dallas
+10000703,Harper Johnson,Appliances,2524.13,13,0.19,2023-11-23,Dallas
+10000704,Olivia Brown,Electronics,318.95,5,0.03,2024-01-23,Chicago
+10000705,Aiden Wilson,Health & Personal Care,3734.06,18,0.09,2023-12-06,Chicago
+10000706,Ethan Miller,Garden,3320.6,8,0.21,2023-06-16,Atlanta
+10000707,Mason Brown,Health & Personal Care,3853.74,6,0.1,2024-11-07,Austin
+10000708,Ethan Lopez,Industrial,186.49,5,0.34,2023-07-21,Miami
+10000709,Aiden Rodriguez,Industrial,820.02,4,0.07,2024-09-17,New York
+10000710,Ava Martinez,Garden,4685.97,9,0.2,2024-12-28,Chicago
+10000711,Isabella Rodriguez,Electronics,2935.36,19,0.35,2024-10-12,New York
+10000712,Ava Davis,Automotive,290.91,8,0.09,2025-02-03,San Diego
+10000713,Liam Martinez,Appliances,4533.82,1,0.11,2023-12-16,Austin
+10000714,Ethan Martinez,Health & Personal Care,4530.67,8,0.27,2023-11-02,Chicago
+10000715,Aiden Williams,Furniture,4977.33,13,0.28,2024-02-09,Austin
+10000716,Ava Rodriguez,Industrial,2976.7,15,0.27,2025-06-28,Atlanta
+10000717,Mason Rodriguez,Electronics,4927.71,1,0.09,2025-09-25,Seattle
+10000718,Noah Davis,Garden,3792.5,14,0.25,2024-04-08,Denver
+10000719,Mia Garcia,Books,3055.35,18,0.02,2024-08-25,Boston
+10000720,Oliver Johnson,Industrial,1494.8,1,0.32,2024-01-03,Atlanta
+10000721,Noah Williams,Health & Personal Care,4978.94,19,0.05,2023-12-15,Austin
+10000722,James Garcia,Automotive,1321.73,6,0.07,2023-02-05,Seattle
+10000723,Mia Gonzalez,Garden,1533.78,2,0.25,2024-07-12,Boston
+10000724,Mason Williams,Garden,4940.34,8,0.22,2024-05-09,Chicago
+10000725,Mason Hernandez,Garden,3937.1,5,0.3,2023-12-20,Boston
+10000726,Ava Rodriguez,Furniture,2303.0,14,0.26,2025-06-06,Seattle
+10000727,Sophia Smith,Electronics,682.02,11,0.1,2025-08-22,Denver
+10000728,Noah Martinez,Garden,2865.51,19,0.06,2023-07-21,Atlanta
+10000729,Mia Smith,Clothing,1909.1,2,0.0,2024-06-13,Atlanta
+10000730,James Garcia,Books,3856.42,14,0.0,2024-11-22,San Francisco
+10000731,Sophia Wilson,Clothing,233.95,5,0.33,2023-03-04,Boston
+10000732,Ethan Smith,Clothing,4454.07,9,0.34,2024-07-28,San Francisco
+10000733,Olivia Davis,Furniture,4940.75,10,0.05,2025-03-12,Dallas
+10000734,Amelia Rodriguez,Books,2444.85,9,0.1,2025-01-09,San Diego
+10000735,Isabella Lopez,Electronics,1774.32,12,0.05,2023-07-12,Seattle
+10000736,Noah Hernandez,Garden,617.9,6,0.23,2025-07-02,New York
+10000737,Ava Jones,Garden,1774.23,15,0.11,2023-04-29,Denver
+10000738,Emma Smith,Electronics,1316.86,8,0.02,2024-03-12,New York
+10000739,Oliver Jones,Electronics,1827.23,12,0.11,2023-02-22,Atlanta
+10000740,Sophia Martinez,Electronics,3393.38,7,0.01,2024-02-01,Dallas
+10000741,Ava Gonzalez,Industrial,3255.26,8,0.17,2025-01-10,San Diego
+10000742,Ava Hernandez,Automotive,4863.51,16,0.04,2023-05-09,Atlanta
+10000743,Noah Smith,Automotive,2291.43,1,0.15,2023-07-06,Miami
+10000744,Liam Martinez,Books,553.0,11,0.19,2025-08-15,San Diego
+10000745,Olivia Davis,Appliances,2877.87,14,0.04,2024-11-28,Atlanta
+10000746,Oliver Hernandez,Clothing,2217.6,4,0.13,2025-07-13,Denver
+10000747,Aiden Jones,Automotive,1844.18,19,0.03,2024-12-30,Miami
+10000748,Mia Hernandez,Health & Personal Care,4650.4,9,0.25,2024-06-09,Austin
+10000749,Oliver Johnson,Books,2555.24,5,0.13,2025-07-29,Austin
+10000750,Ethan Williams,Appliances,2880.76,3,0.17,2023-02-03,Austin
+10000751,Mia Lopez,Electronics,2487.66,17,0.3,2023-11-13,Boston
+10000752,Ava Lopez,Industrial,3832.91,11,0.25,2024-05-19,Boston
+10000753,Liam Brown,Garden,4146.88,1,0.33,2024-06-03,Atlanta
+10000754,Liam Smith,Industrial,3399.39,20,0.25,2023-01-04,Miami
+10000755,Amelia Miller,Automotive,415.57,9,0.16,2023-02-21,Dallas
+10000756,Noah Johnson,Electronics,2846.54,14,0.02,2025-01-30,Boston
+10000757,Ethan Gonzalez,Garden,3582.59,9,0.24,2024-03-20,Miami
+10000758,Ava Rodriguez,Automotive,1239.2,17,0.26,2024-04-28,Chicago
+10000759,Mia Lopez,Appliances,3332.96,8,0.05,2023-08-12,Boston
+10000760,Emma Smith,Health & Personal Care,518.66,10,0.07,2024-09-09,Atlanta
+10000761,Emma Wilson,Furniture,2574.31,2,0.33,2025-03-06,Seattle
+10000762,Mia Davis,Health & Personal Care,3488.86,10,0.11,2024-08-01,Chicago
+10000763,Olivia Johnson,Electronics,597.38,16,0.05,2024-09-13,Denver
+10000764,Emma Wilson,Industrial,4077.03,2,0.08,2023-08-24,San Diego
+10000765,Ava Smith,Clothing,3641.28,18,0.25,2023-10-01,Boston
+10000766,Lucas Hernandez,Automotive,2446.41,3,0.12,2024-04-29,Atlanta
+10000767,Ava Rodriguez,Garden,1552.1,2,0.13,2023-05-11,Chicago
+10000768,Sophia Rodriguez,Appliances,3493.1,18,0.03,2023-07-29,Miami
+10000769,Ethan Hernandez,Clothing,1112.28,20,0.12,2025-08-19,Boston
+10000770,Ethan Jones,Garden,4991.67,19,0.25,2025-01-20,Atlanta
+10000771,Olivia Hernandez,Health & Personal Care,268.73,18,0.02,2025-07-07,Seattle
+10000772,Noah Hernandez,Electronics,1157.64,3,0.21,2024-10-19,San Francisco
+10000773,Aiden Hernandez,Furniture,3239.92,13,0.33,2024-10-05,Dallas
+10000774,Ava Williams,Automotive,1483.05,6,0.13,2025-06-23,Austin
+10000775,Oliver Gonzalez,Furniture,3477.85,14,0.0,2024-08-03,Denver
+10000776,Isabella Gonzalez,Electronics,1872.66,18,0.03,2025-07-01,San Francisco
+10000777,Sophia Wilson,Industrial,2050.22,1,0.35,2024-10-19,Atlanta
+10000778,Emma Jones,Garden,2460.3,12,0.22,2023-04-25,Austin
+10000779,Noah Lopez,Furniture,2268.19,12,0.35,2023-10-17,Austin
+10000780,Liam Lopez,Furniture,3493.09,15,0.16,2023-02-04,Dallas
+10000781,James Wilson,Furniture,1265.24,12,0.08,2023-07-14,Atlanta
+10000782,Harper Davis,Health & Personal Care,675.78,9,0.2,2025-07-08,Boston
+10000783,Mason Brown,Health & Personal Care,2450.88,16,0.25,2025-09-23,Dallas
+10000784,Aiden Jones,Furniture,4116.51,6,0.14,2024-11-05,San Diego
+10000785,Amelia Wilson,Books,621.14,15,0.22,2025-05-31,New York
+10000786,Olivia Davis,Books,2044.9,15,0.29,2024-11-12,Miami
+10000787,Lucas Wilson,Health & Personal Care,2092.28,11,0.21,2025-07-02,Austin
+10000788,Sophia Wilson,Garden,2386.3,20,0.03,2023-07-08,New York
+10000789,Noah Lopez,Industrial,246.74,14,0.11,2025-07-27,San Francisco
+10000790,Aiden Jones,Industrial,1746.66,3,0.22,2024-01-31,San Francisco
+10000791,Olivia Davis,Garden,4600.5,12,0.14,2024-10-09,Miami
+10000792,Emma Williams,Health & Personal Care,4903.16,2,0.05,2025-07-16,Chicago
+10000793,Mia Smith,Furniture,4534.29,18,0.11,2025-04-27,Boston
+10000794,Oliver Hernandez,Electronics,1342.33,6,0.0,2024-01-12,Denver
+10000795,Ethan Hernandez,Books,3699.12,10,0.0,2024-07-03,Austin
+10000796,Sophia Johnson,Appliances,1656.44,18,0.12,2024-01-14,San Francisco
+10000797,Mason Smith,Electronics,4509.73,13,0.22,2024-08-07,Chicago
+10000798,Liam Gonzalez,Automotive,4029.22,5,0.01,2023-04-18,Austin
+10000799,Aiden Jones,Garden,3591.23,8,0.35,2023-09-24,Chicago
+10000800,Lucas Wilson,Electronics,3750.52,12,0.28,2024-02-10,Dallas
+10000801,Amelia Martinez,Appliances,4560.24,15,0.07,2025-09-01,Denver
+10000802,Lucas Williams,Electronics,1104.03,1,0.23,2024-10-27,Atlanta
+10000803,Olivia Rodriguez,Appliances,793.18,20,0.31,2024-01-05,Austin
+10000804,Sophia Lopez,Automotive,1415.59,2,0.12,2024-12-30,Miami
+10000805,Aiden Jones,Electronics,2446.56,6,0.03,2023-11-02,San Francisco
+10000806,Lucas Jones,Books,2377.79,11,0.0,2024-09-04,Dallas
+10000807,Emma Hernandez,Appliances,1614.69,15,0.05,2024-03-10,Boston
+10000808,Aiden Wilson,Industrial,2675.7,20,0.34,2025-07-21,Denver
+10000809,James Williams,Industrial,2933.42,6,0.03,2025-05-29,Dallas
+10000810,Ethan Smith,Electronics,1536.08,3,0.31,2023-02-26,San Francisco
+10000811,Mason Martinez,Books,3072.71,4,0.32,2025-06-28,Seattle
+10000812,Mia Miller,Electronics,4128.19,18,0.13,2024-11-17,Seattle
+10000813,Emma Lopez,Appliances,1978.62,19,0.27,2025-08-17,San Francisco
+10000814,Emma Brown,Electronics,556.14,2,0.34,2024-01-01,Denver
+10000815,Noah Gonzalez,Books,1454.44,2,0.24,2024-05-08,Austin
+10000816,Amelia Gonzalez,Appliances,2135.27,1,0.31,2025-04-21,Seattle
+10000817,Aiden Davis,Furniture,4096.76,19,0.15,2023-01-01,Denver
+10000818,Ava Garcia,Clothing,1579.76,6,0.28,2025-03-12,Chicago
+10000819,Oliver Jones,Automotive,13.22,2,0.29,2024-01-06,Chicago
+10000820,Aiden Garcia,Electronics,1749.61,17,0.31,2025-04-07,Chicago
+10000821,Harper Rodriguez,Electronics,1995.25,7,0.28,2025-01-03,Boston
+10000822,Liam Lopez,Garden,3835.64,14,0.22,2025-08-22,Miami
+10000823,Liam Lopez,Garden,3457.17,12,0.18,2024-01-08,New York
+10000824,Oliver Garcia,Automotive,2431.44,13,0.21,2024-10-21,Seattle
+10000825,Aiden Brown,Appliances,3583.66,18,0.28,2025-03-17,New York
+10000826,Oliver Johnson,Books,175.13,20,0.27,2025-08-24,Miami
+10000827,Emma Davis,Garden,2937.49,12,0.06,2023-10-13,Dallas
+10000828,Ethan Lopez,Health & Personal Care,2438.63,5,0.26,2025-09-20,Chicago
+10000829,Ava Gonzalez,Books,2545.1,10,0.2,2024-03-11,San Diego
+10000830,Lucas Wilson,Automotive,2431.6,18,0.08,2023-04-02,San Diego
+10000831,Mia Brown,Appliances,855.85,10,0.17,2023-06-19,New York
+10000832,Liam Davis,Electronics,91.74,15,0.11,2024-04-02,Boston
+10000833,Ethan Garcia,Industrial,516.0,3,0.04,2023-12-09,San Diego
+10000834,Ava Smith,Appliances,712.36,18,0.17,2023-06-21,Dallas
+10000835,Harper Rodriguez,Furniture,357.92,7,0.05,2024-01-28,Austin
+10000836,Ava Gonzalez,Books,665.17,3,0.24,2025-03-08,Seattle
+10000837,Amelia Smith,Appliances,1460.32,3,0.13,2023-07-13,Austin
+10000838,Emma Martinez,Electronics,4590.42,16,0.1,2023-05-09,New York
+10000839,Noah Jones,Industrial,3344.98,14,0.31,2025-09-05,San Francisco
+10000840,Sophia Lopez,Garden,4892.9,20,0.13,2023-12-07,Chicago
+10000841,Isabella Miller,Health & Personal Care,642.84,1,0.06,2025-02-22,Seattle
+10000842,Ethan Williams,Industrial,2981.08,11,0.19,2024-10-11,Boston
+10000843,Oliver Jones,Health & Personal Care,4623.92,20,0.25,2025-09-15,Austin
+10000844,Noah Jones,Industrial,743.87,13,0.17,2024-04-26,San Francisco
+10000845,Ethan Hernandez,Books,2984.79,12,0.3,2024-12-08,Chicago
+10000846,Mia Jones,Health & Personal Care,1944.66,9,0.01,2024-09-11,Chicago
+10000847,James Hernandez,Appliances,2065.31,14,0.19,2023-02-20,Chicago
+10000848,Olivia Smith,Appliances,659.5,7,0.09,2023-09-28,Chicago
+10000849,Liam Gonzalez,Garden,3358.19,18,0.07,2023-04-23,Austin
+10000850,Harper Johnson,Electronics,4411.24,18,0.28,2023-06-13,New York
+10000851,James Jones,Clothing,3418.87,14,0.09,2024-11-24,Miami
+10000852,Aiden Davis,Automotive,3483.86,14,0.08,2023-10-24,San Diego
+10000853,James Wilson,Furniture,1425.72,7,0.01,2024-07-31,Austin
+10000854,Lucas Martinez,Health & Personal Care,2416.33,3,0.13,2024-05-23,Denver
+10000855,Amelia Rodriguez,Industrial,718.56,11,0.3,2024-06-07,Austin
+10000856,Mia Garcia,Health & Personal Care,2752.72,5,0.27,2024-01-02,Boston
+10000857,Aiden Hernandez,Books,2571.3,13,0.22,2025-03-03,San Francisco
+10000858,Noah Wilson,Books,4621.84,13,0.02,2023-05-25,San Francisco
+10000859,Liam Williams,Industrial,245.09,15,0.04,2025-05-12,Boston
+10000860,Emma Brown,Industrial,3976.44,18,0.11,2024-06-04,Atlanta
+10000861,Ava Jones,Garden,4547.13,6,0.04,2025-08-28,Seattle
+10000862,Sophia Martinez,Clothing,2746.69,2,0.31,2023-03-22,Dallas
+10000863,Sophia Davis,Clothing,3971.12,11,0.35,2024-10-09,San Diego
+10000864,Olivia Williams,Health & Personal Care,1217.33,14,0.13,2023-11-25,New York
+10000865,Mia Brown,Clothing,1880.67,7,0.13,2025-04-20,Dallas
+10000866,Aiden Lopez,Books,1888.42,19,0.16,2023-02-06,Atlanta
+10000867,Oliver Davis,Clothing,4702.07,12,0.09,2025-08-23,Seattle
+10000868,Mia Williams,Garden,1932.88,16,0.27,2024-09-02,Atlanta
+10000869,Lucas Garcia,Books,1310.39,16,0.16,2024-07-06,San Francisco
+10000870,Aiden Jones,Electronics,4405.47,4,0.16,2025-07-12,Dallas
+10000871,Liam Williams,Clothing,3122.71,20,0.25,2023-01-09,Denver
+10000872,Emma Gonzalez,Electronics,1050.17,4,0.34,2024-10-19,Chicago
+10000873,Olivia Smith,Automotive,3642.81,1,0.23,2025-02-06,Boston
+10000874,Aiden Brown,Electronics,4002.06,10,0.13,2023-11-28,Austin
+10000875,Ethan Jones,Automotive,1949.14,2,0.03,2023-04-24,Dallas
+10000876,Amelia Williams,Garden,1820.66,19,0.1,2024-11-13,Austin
+10000877,Sophia Jones,Garden,4437.51,4,0.31,2023-05-14,New York
+10000878,Liam Martinez,Clothing,1896.21,15,0.1,2024-03-05,Denver
+10000879,Isabella Lopez,Furniture,2086.91,4,0.03,2023-12-06,Seattle
+10000880,Noah Hernandez,Appliances,3942.55,11,0.28,2024-05-25,Denver
+10000881,Emma Lopez,Garden,214.03,14,0.14,2023-07-14,Miami
+10000882,Olivia Smith,Appliances,1565.85,10,0.01,2025-08-15,Denver
+10000883,Harper Martinez,Health & Personal Care,1042.41,9,0.34,2024-04-23,Dallas
+10000884,Liam Brown,Furniture,1158.58,6,0.06,2025-03-03,Miami
+10000885,Sophia Johnson,Appliances,1476.75,7,0.21,2024-09-17,Atlanta
+10000886,Olivia Gonzalez,Appliances,2312.96,15,0.25,2025-06-12,Austin
+10000887,Amelia Wilson,Appliances,3628.61,17,0.21,2025-08-28,Denver
+10000888,Noah Gonzalez,Automotive,918.26,13,0.29,2025-02-20,Boston
+10000889,Aiden Lopez,Industrial,2447.83,16,0.34,2025-03-14,San Francisco
+10000890,Aiden Davis,Clothing,2429.45,17,0.01,2023-11-10,New York
+10000891,Noah Williams,Appliances,2585.97,17,0.25,2023-09-14,Boston
+10000892,Ethan Smith,Appliances,3167.92,9,0.02,2025-07-01,Austin
+10000893,Isabella Williams,Electronics,182.9,6,0.24,2023-02-03,Boston
+10000894,James Brown,Furniture,3837.17,11,0.1,2023-11-27,Atlanta
+10000895,Harper Hernandez,Industrial,1389.44,19,0.18,2023-03-02,Atlanta
+10000896,Mason Williams,Industrial,1331.71,3,0.34,2023-03-29,Austin
+10000897,Liam Martinez,Health & Personal Care,2587.25,18,0.28,2025-09-08,Austin
+10000898,Olivia Johnson,Garden,1203.96,5,0.18,2025-08-05,San Diego
+10000899,Sophia Lopez,Automotive,3740.29,11,0.31,2023-03-07,Austin
+10000900,Isabella Gonzalez,Electronics,841.98,10,0.34,2025-05-14,San Diego
+10000901,Noah Martinez,Industrial,968.61,20,0.27,2023-06-29,Boston
+10000902,Oliver Garcia,Industrial,375.32,14,0.19,2024-09-25,Austin
+10000903,Sophia Rodriguez,Clothing,1741.38,17,0.17,2024-01-26,Austin
+10000904,Amelia Smith,Books,659.79,17,0.14,2025-08-29,Atlanta
+10000905,Lucas Garcia,Health & Personal Care,3833.95,14,0.34,2024-07-15,Dallas
+10000906,James Rodriguez,Appliances,420.79,5,0.03,2024-06-07,San Diego
+10000907,Harper Johnson,Furniture,645.32,14,0.19,2024-03-20,Boston
+10000908,Emma Rodriguez,Health & Personal Care,2260.55,5,0.1,2023-03-28,Miami
+10000909,Mia Williams,Clothing,1243.68,4,0.01,2025-02-04,Dallas
+10000910,Mason Martinez,Clothing,4088.29,13,0.15,2023-08-21,San Francisco
+10000911,James Brown,Electronics,266.26,1,0.25,2023-11-09,Seattle
+10000912,Liam Davis,Industrial,1973.89,11,0.23,2024-08-21,San Diego
+10000913,Ethan Johnson,Appliances,1853.63,11,0.23,2024-01-14,Denver
+10000914,Isabella Miller,Electronics,3423.77,9,0.11,2025-03-25,San Francisco
+10000915,Lucas Martinez,Industrial,1556.46,8,0.15,2024-09-26,San Francisco
+10000916,Ava Johnson,Appliances,2808.53,13,0.26,2024-04-14,Atlanta
+10000917,Olivia Rodriguez,Clothing,533.18,11,0.1,2023-03-28,Denver
+10000918,Oliver Williams,Books,1462.29,7,0.23,2023-05-10,Dallas
+10000919,Ethan Hernandez,Garden,2544.26,15,0.34,2023-07-21,Atlanta
+10000920,James Wilson,Clothing,2012.56,14,0.23,2025-07-05,San Francisco
+10000921,Noah Gonzalez,Industrial,3121.67,12,0.3,2023-07-26,Boston
+10000922,Aiden Lopez,Garden,4137.56,16,0.29,2024-09-13,Denver
+10000923,James Martinez,Health & Personal Care,4615.24,1,0.21,2024-02-10,Miami
+10000924,Harper Smith,Appliances,3572.12,16,0.1,2024-06-28,Austin
+10000925,Ethan Williams,Clothing,375.96,5,0.29,2024-12-28,Denver
+10000926,Amelia Davis,Appliances,272.58,19,0.23,2024-06-04,Austin
+10000927,Noah Rodriguez,Electronics,3241.57,16,0.19,2024-06-02,Atlanta
+10000928,James Martinez,Furniture,3391.51,9,0.05,2024-06-12,Austin
+10000929,Oliver Wilson,Health & Personal Care,4493.1,2,0.14,2023-04-08,Miami
+10000930,Ava Lopez,Health & Personal Care,684.55,6,0.15,2024-09-13,Boston
+10000931,Mason Wilson,Electronics,1735.58,18,0.23,2023-12-29,New York
+10000932,Mia Hernandez,Industrial,3641.6,3,0.2,2025-03-28,New York
+10000933,Aiden Williams,Electronics,3049.27,4,0.05,2023-04-23,Atlanta
+10000934,Lucas Gonzalez,Appliances,1564.08,12,0.05,2024-04-05,San Francisco
+10000935,Aiden Wilson,Furniture,76.8,18,0.19,2024-09-25,Seattle
+10000936,Mason Lopez,Industrial,1711.97,8,0.18,2023-08-01,San Francisco
+10000937,James Smith,Furniture,758.46,14,0.1,2025-09-27,Chicago
+10000938,Isabella Johnson,Clothing,4328.42,14,0.3,2023-03-23,Chicago
+10000939,Noah Wilson,Health & Personal Care,1608.22,2,0.21,2023-04-27,Dallas
+10000940,Ava Rodriguez,Industrial,2202.25,4,0.34,2024-08-05,Denver
+10000941,Noah Lopez,Books,420.73,5,0.09,2025-03-27,Chicago
+10000942,Lucas Jones,Books,4940.32,7,0.33,2023-09-04,Austin
+10000943,Olivia Jones,Appliances,28.77,13,0.13,2025-04-20,San Diego
+10000944,Liam Jones,Health & Personal Care,4259.47,12,0.28,2024-12-22,Dallas
+10000945,Sophia Garcia,Books,3765.62,15,0.24,2024-03-24,Boston
+10000946,Emma Garcia,Furniture,1423.03,20,0.21,2024-10-27,Dallas
+10000947,James Williams,Industrial,50.34,20,0.28,2023-08-31,Boston
+10000948,Ethan Brown,Appliances,2664.17,18,0.25,2025-05-02,Seattle
+10000949,James Davis,Electronics,2391.94,3,0.04,2025-06-14,Dallas
+10000950,Oliver Garcia,Automotive,2436.2,6,0.03,2025-05-20,New York
+10000951,Olivia Davis,Appliances,1207.21,17,0.0,2023-10-14,San Francisco
+10000952,Olivia Wilson,Health & Personal Care,387.2,7,0.26,2023-11-15,San Diego
+10000953,Mason Johnson,Appliances,3029.99,3,0.23,2024-07-24,San Diego
+10000954,Lucas Jones,Books,3037.68,6,0.06,2025-02-24,Chicago
+10000955,Lucas Brown,Industrial,600.09,6,0.26,2025-07-16,Boston
+10000956,Emma Johnson,Clothing,1401.92,10,0.13,2023-04-24,Seattle
+10000957,Emma Garcia,Appliances,2137.86,11,0.31,2024-05-21,Chicago
+10000958,Ava Williams,Health & Personal Care,2670.68,11,0.28,2024-02-25,San Francisco
+10000959,Aiden Hernandez,Furniture,1574.38,9,0.01,2023-11-15,Seattle
+10000960,Olivia Miller,Industrial,943.59,5,0.07,2023-01-08,Seattle
+10000961,Oliver Miller,Industrial,942.91,19,0.02,2023-06-18,San Diego
+10000962,Liam Johnson,Clothing,4440.49,16,0.33,2024-11-23,Chicago
+10000963,James Wilson,Furniture,2575.33,17,0.07,2024-03-20,Dallas
+10000964,Ethan Williams,Health & Personal Care,290.3,20,0.18,2023-02-13,Denver
+10000965,Isabella Miller,Electronics,3418.43,13,0.07,2024-10-23,Chicago
+10000966,Mason Smith,Electronics,2104.37,14,0.31,2024-02-14,San Francisco
+10000967,Amelia Smith,Industrial,565.9,20,0.16,2023-12-22,Denver
+10000968,Mia Wilson,Books,3539.73,2,0.26,2025-07-17,Atlanta
+10000969,Oliver Gonzalez,Electronics,1705.57,20,0.21,2025-01-11,Dallas
+10000970,Sophia Smith,Automotive,854.35,10,0.04,2024-02-04,Dallas
+10000971,Mason Wilson,Health & Personal Care,1087.74,5,0.22,2023-02-07,Boston
+10000972,Harper Lopez,Health & Personal Care,1074.39,9,0.05,2023-03-05,Chicago
+10000973,Olivia Williams,Clothing,2258.89,17,0.06,2023-10-16,Dallas
+10000974,Noah Davis,Industrial,4184.67,3,0.14,2024-03-19,San Diego
+10000975,Amelia Gonzalez,Industrial,678.51,17,0.33,2023-02-19,Boston
+10000976,Sophia Williams,Books,4031.18,7,0.04,2023-08-04,Chicago
+10000977,Lucas Miller,Books,3276.84,8,0.33,2023-03-16,Dallas
+10000978,Emma Wilson,Clothing,2886.27,12,0.17,2024-09-21,Atlanta
+10000979,Liam Davis,Electronics,3159.91,15,0.08,2024-04-11,San Diego
+10000980,Lucas Miller,Electronics,4257.39,16,0.17,2023-05-19,Dallas
+10000981,Oliver Smith,Clothing,1725.55,1,0.23,2023-04-14,Atlanta
+10000982,Noah Miller,Clothing,3453.93,12,0.17,2025-04-10,Seattle
+10000983,Mason Williams,Clothing,3954.78,13,0.11,2023-01-17,Seattle
+10000984,Isabella Davis,Garden,839.19,8,0.18,2024-04-05,Boston
+10000985,Liam Garcia,Clothing,1440.04,19,0.09,2025-07-06,Denver
+10000986,Emma Gonzalez,Health & Personal Care,3051.43,14,0.07,2025-02-06,Denver
+10000987,Aiden Lopez,Industrial,4291.75,19,0.05,2023-11-12,Austin
+10000988,Aiden Jones,Health & Personal Care,3216.01,20,0.11,2023-07-27,Chicago
+10000989,Ava Gonzalez,Electronics,766.14,10,0.28,2023-12-02,Austin
+10000990,Harper Jones,Furniture,482.65,10,0.13,2023-12-20,Austin
+10000991,Emma Brown,Electronics,460.8,2,0.32,2025-05-15,San Francisco
+10000992,Harper Johnson,Electronics,4451.06,17,0.01,2023-07-24,Atlanta
+10000993,Mia Miller,Automotive,1174.53,12,0.21,2023-09-01,Denver
+10000994,Aiden Jones,Garden,374.86,3,0.2,2025-01-20,Miami
+10000995,Harper Johnson,Furniture,3109.37,9,0.1,2024-03-19,New York
+10000996,Oliver Johnson,Furniture,3044.12,14,0.2,2025-06-23,Miami
+10000997,Aiden Williams,Health & Personal Care,4912.41,9,0.02,2024-10-06,Atlanta
+10000998,Mason Johnson,Health & Personal Care,4506.15,3,0.01,2023-07-16,Denver
+10000999,Sophia Martinez,Clothing,3584.18,5,0.05,2025-07-29,Miami
+10001000,Harper Rodriguez,Books,3471.19,1,0.25,2024-11-01,San Diego

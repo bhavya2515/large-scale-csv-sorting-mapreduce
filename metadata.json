@@ -1,0 +1,8 @@
+{
+  "name": "Large-Scale CSV Sorting Using MapReduce",
+  "description": "An academic Big Data analytics platform demonstrating MapReduce distributed sorting architecture, chunking, shuffle-and-sort, and k-way merge algorithms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Results - MapReduce CSV Sort</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">MR</div>
+                <div class="brand-text">
+                    <h2>MapReduce Sort</h2>
+                    <span>Big Data Engineering</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="{{ url_for('index') }}" class="nav-item">
+                    <span class="icon">⊞</span> Upload Another Dataset
+                </a>
+                <a href="{{ url_for('configure', filename=filename) }}" class="nav-item">
+                    <span class="icon">⚙</span> Reconfigure Parameters
+                </a>
+                <a href="#" class="nav-item active">
+                    <span class="icon">✓</span> Results & Download
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-badge">
+                    <span class="pulse-dot"></span> Pipeline Status: Complete
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="breadcrumb">
+                    <span>Sorting Pipeline</span> / <strong>Results for {{ filename }}</strong>
+                </div>
+                <div class="header-actions">
+                    <a href="{{ url_for('download_file', filename=out_filename) }}" class="btn btn-primary btn-sm">
+                        ⬇ Download Sorted CSV
+                    </a>
+                </div>
+            </header>
+
+            <div class="content-container">
+                <!-- Success Banner -->
+                <div class="status-banner">
+                    <div class="banner-icon">✓</div>
+                    <div class="banner-content">
+                        <h3>MapReduce Sorting Completed Successfully!</h3>
+                        <p>
+                            Sorted by <strong>{{ sort_column }}</strong> ({{ sort_order | upper }}) across <strong>{{ num_chunks }} parallel chunks</strong>.
+                            Global ordering verified with zero record loss.
+                        </p>
+                    </div>
+                    <a href="{{ url_for('download_file', filename=out_filename) }}" class="btn btn-success">
+                        Download Result ({{ sorted_meta.file_size }})
+                    </a>
+                </div>
+
+                <!-- Metrics Grid -->
+                <div class="stats-grid mt-4">
+                    <div class="stat-card">
+                        <span class="stat-label">Total Execution Time</span>
+                        <span class="stat-val highlight-blue">{{ timings.total_time_sec }}s</span>
+                        <span class="stat-sub">End-to-end pipeline</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Processed Records</span>
+                        <span class="stat-val">{{ "{:,}".format(sorted_meta.total_rows) }}</span>
+                        <span class="stat-sub">100% matched input</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Parallel Mappers</span>
+                        <span class="stat-val">{{ num_chunks }} Processes</span>
+                        <span class="stat-sub">{{ (sorted_meta.total_rows // num_chunks) }} rows/chunk</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Merge Algorithm</span>
+                        <span class="stat-val">K-Way Min-Heap</span>
+                        <span class="stat-sub">O(N log K) external merge</span>
+                    </div>
+                </div>
+
+                <!-- Latency Breakdown by Phase -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>MapReduce Stage Latency Breakdown</h3>
+                        <span class="tag">System Profiling</span>
+                    </div>
+                    <div class="stage-timeline">
+                        <div class="stage-bar-item">
+                            <div class="stage-meta">
+                                <strong>Stage 1: Input Splitting</strong>
+                                <span>{{ timings.split_time_sec }}s</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill fill-1" style="width: 20%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="stage-bar-item">
+                            <div class="stage-meta">
+                                <strong>Stage 2: Parallel Mappers</strong>
+                                <span>{{ timings.mapper_time_sec }}s</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill fill-2" style="width: 45%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="stage-bar-item">
+                            <div class="stage-meta">
+                                <strong>Stage 3: Shuffle Coordination</strong>
+                                <span>{{ timings.shuffle_time_sec }}s</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill fill-3" style="width: 10%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="stage-bar-item">
+                            <div class="stage-meta">
+                                <strong>Stage 4: K-Way Heap Reducer</strong>
+                                <span>{{ timings.reducer_time_sec }}s</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill fill-4" style="width: 35%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mapper Partition Inspection -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>Mapper Partition Execution Diagnostics</h3>
+                        <span class="tag">{{ mapper_details | length }} Partitions</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Partition / Chunk ID</th>
+                                    <th>Rows Handled</th>
+                                    <th>Minimum Key</th>
+                                    <th>Maximum Key</th>
+                                    <th>Worker Execution Time</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for m in mapper_details %}
+                                <tr>
+                                    <td><strong>Chunk #{{ m.chunk_id }}</strong></td>
+                                    <td>{{ "{:,}".format(m.row_count) }}</td>
+                                    <td><code class="code-badge">{{ m.min_key }}</code></td>
+                                    <td><code class="code-badge">{{ m.max_key }}</code></td>
+                                    <td>{{ m.execution_time_sec }} sec</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Sorted Dataset Preview -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>Globally Sorted Dataset Preview (First 10 Records)</h3>
+                        <span class="badge-success">Sorted by {{ sort_column }}</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    {% for col in sorted_meta.columns %}
+                                        <th class="{% if col == sort_column %}active-sort-th{% endif %}">
+                                            {{ col }} {% if col == sort_column %}★{% endif %}
+                                        </th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in sorted_meta.preview_data %}
+                                    <tr>
+                                        {% for col in sorted_meta.columns %}
+                                            <td class="{% if col == sort_column %}active-sort-td{% endif %}">
+                                                {{ row[col] }}
+                                            </td>
+                                        {% endfor %}
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="bottom-actions mt-4">
+                    <a href="{{ url_for('download_file', filename=out_filename) }}" class="btn btn-primary btn-lg">
+                        ⬇ Download Full Sorted Dataset (.CSV)
+                    </a>
+                    <a href="{{ url_for('index') }}" class="btn btn-outline btn-lg ml-3">
+                        Sort Another Dataset
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

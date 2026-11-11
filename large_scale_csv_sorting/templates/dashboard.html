@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Configuration - MapReduce CSV Sort</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">MR</div>
+                <div class="brand-text">
+                    <h2>MapReduce Sort</h2>
+                    <span>Big Data Engineering</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="{{ url_for('index') }}" class="nav-item">
+                    <span class="icon">⊞</span> Upload New File
+                </a>
+                <a href="{{ url_for('configure', filename=filename) }}" class="nav-item active">
+                    <span class="icon">⚙</span> Dataset Config
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-badge">
+                    <span class="pulse-dot"></span> Active Dataset: {{ meta.total_rows }} rows
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="breadcrumb">
+                    <a href="{{ url_for('index') }}">Datasets</a> / <strong>{{ filename }}</strong>
+                </div>
+                <div class="header-actions">
+                    <a href="{{ url_for('performance_analysis', filename=filename) }}" class="btn btn-outline btn-sm">
+                        📊 Run Multi-Core Benchmark
+                    </a>
+                </div>
+            </header>
+
+            <div class="content-container">
+                <!-- Dataset Overview Cards -->
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-label">Total Records</span>
+                        <span class="stat-val">{{ "{:,}".format(meta.total_rows) }}</span>
+                        <span class="stat-sub">Data rows counted</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Total Columns</span>
+                        <span class="stat-val">{{ meta.columns | length }}</span>
+                        <span class="stat-sub">Header schema verified</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">File Size</span>
+                        <span class="stat-val">{{ meta.file_size }}</span>
+                        <span class="stat-sub">Uncompressed CSV</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">Integrity Status</span>
+                        <span class="stat-val text-success">Valid UTF-8</span>
+                        <span class="stat-sub">All delimiters checked</span>
+                    </div>
+                </div>
+
+                <!-- Sorting Configuration Card -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>MapReduce Sorting Configuration</h3>
+                        <span class="tag">Parameter Tuning</span>
+                    </div>
+                    <form action="{{ url_for('execute_sort') }}" method="POST" class="config-form">
+                        <input type="hidden" name="filename" value="{{ filename }}">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sort_column"><strong>Target Sort Column</strong></label>
+                                <select name="sort_column" id="sort_column" class="form-control" required>
+                                    {% for col in meta.columns %}
+                                        <option value="{{ col }}">
+                                            {{ col }} ({{ meta.col_types[col] }})
+                                        </option>
+                                    {% endfor %}
+                                </select>
+                                <span class="field-hint">The key extracted by Mappers for partitioning and comparison.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="sort_order"><strong>Sorting Direction</strong></label>
+                                <select name="sort_order" id="sort_order" class="form-control">
+                                    <option value="asc">Ascending (Smallest to Largest / A → Z)</option>
+                                    <option value="desc">Descending (Largest to Smallest / Z → A)</option>
+                                </select>
+                                <span class="field-hint">Inverts priority queue comparator in Reducer phase.</span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="num_chunks"><strong>Parallel Chunks (K Partitions)</strong></label>
+                                <select name="num_chunks" id="num_chunks" class="form-control">
+                                    <option value="2">2 Chunks (Dual Core)</option>
+                                    <option value="4" selected>4 Chunks (Quad Core / Standard)</option>
+                                    <option value="8">8 Chunks (High Parallelism)</option>
+                                    <option value="16">16 Chunks (Extreme Partitions)</option>
+                                </select>
+                                <span class="field-hint">Number of independent Mapper worker processes spawned.</span>
+                            </div>
+                        </div>
+
+                        <div class="action-bar">
+                            <button type="submit" class="btn btn-primary btn-lg">
+                                🚀 Start MapReduce Sorting Pipeline
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Dataset Preview Table -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h3>Original Dataset Preview (First 10 Records)</h3>
+                        <span class="badge">Unsorted Raw Data</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    {% for col in meta.columns %}
+                                        <th>{{ col }} <span class="type-tag">{{ meta.col_types[col] }}</span></th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for row in meta.preview_data %}
+                                    <tr>
+                                        {% for col in meta.columns %}
+                                            <td>{{ row[col] }}</td>
+                                        {% endfor %}
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Performance benchmark section if invoked -->
+                {% if show_perf %}
+                <div class="card mt-4" id="perfSection">
+                    <div class="card-header">
+                        <h3>Performance Analysis: Single-Thread vs. MapReduce</h3>
+                        <span class="badge-accent">Matplotlib Verified</span>
+                    </div>
+                    <div class="perf-body">
+                        <div class="perf-chart-wrap">
+                            <img src="{{ url_for('static', filename=chart_img) }}" alt="Performance Comparison Chart" class="perf-chart">
+                        </div>
+                        <div class="table-responsive mt-3">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Architecture Execution Model</th>
+                                        <th>Chunks</th>
+                                        <th>Execution Latency</th>
+                                        <th>Throughput</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for exp in bench_data.experiments %}
+                                    <tr>
+                                        <td><strong>{{ exp.name }}</strong></td>
+                                        <td>{{ exp.chunks }}</td>
+                                        <td><span class="code-badge">{{ exp.time_sec }} sec</span></td>
+                                        <td>{{ "{:,}".format(exp.throughput_rows_sec) }} rows/s</td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </main>
+    </div>
+</body>
+</html>

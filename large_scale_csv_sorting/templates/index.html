@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Large-Scale CSV Sorting Using MapReduce - Academic Big Data Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">MR</div>
+                <div class="brand-text">
+                    <h2>MapReduce Sort</h2>
+                    <span>Big Data Engineering</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="{{ url_for('index') }}" class="nav-item active">
+                    <span class="icon">⊞</span> Dashboard & Upload
+                </a>
+                <a href="#architecture" class="nav-item">
+                    <span class="icon">⚡</span> MapReduce Architecture
+                </a>
+                <a href="#benchmarks" class="nav-item">
+                    <span class="icon">📊</span> Performance Specs
+                </a>
+                <a href="#viva" class="nav-item">
+                    <span class="icon">🎓</span> Viva & Theory Notes
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-badge">
+                    <span class="pulse-dot"></span> Local Multiprocessing Active
+                </div>
+                <p>Python 3.10+ | Pandas | Flask</p>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header Bar -->
+            <header class="top-bar">
+                <div class="breadcrumb">
+                    <span>Project</span> / <strong>Large-Scale CSV Sorting</strong>
+                </div>
+                <div class="status-pill">
+                    Hadoop Streaming Compatible
+                </div>
+            </header>
+
+            <div class="content-container">
+                <!-- Flash alerts -->
+                {% with messages = get_flashed_messages(with_categories=true) %}
+                  {% if messages %}
+                    {% for category, message in messages %}
+                      <div class="alert alert-{{ category }}">{{ message }}</div>
+                    {% endfor %}
+                  {% endif %}
+                {% endwith %}
+
+                <!-- Hero Section -->
+                <section class="hero-card">
+                    <div class="hero-info">
+                        <span class="badge-primary">Distributed Systems / Big Data</span>
+                        <h1>Large-Scale CSV Sorting Using MapReduce</h1>
+                        <p>
+                            A high-throughput MapReduce implementation designed to sort massive CSV datasets efficiently.
+                            Splits unbounded files into balanced partitions, processes key extractions in parallel worker Mappers,
+                            and merges sorted streams via a <strong>K-Way Min-Heap Priority Queue Reducer</strong> with \(O(N \log K)\) complexity.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Workflow Grid -->
+                <div class="section-title">
+                    <h3>MapReduce 4-Stage Execution Pipeline</h3>
+                </div>
+                <div class="pipeline-grid">
+                    <div class="pipeline-step">
+                        <div class="step-num">01</div>
+                        <h4>Input Splitting</h4>
+                        <p>Divides raw CSV dataset into \(K\) uniform chunks, preserving headers across boundaries without memory saturation.</p>
+                    </div>
+                    <div class="pipeline-step">
+                        <div class="step-num">02</div>
+                        <h4>Parallel Mappers</h4>
+                        <p>Worker processes extract the sort column, type-cast comparable keys, and locally order each chunk partition in parallel.</p>
+                    </div>
+                    <div class="pipeline-step">
+                        <div class="step-num">03</div>
+                        <h4>Shuffle & Partition</h4>
+                        <p>Tracks min/max key boundaries, manages partition buffers, and coordinates stream descriptors for the global merge.</p>
+                    </div>
+                    <div class="pipeline-step">
+                        <div class="step-num">04</div>
+                        <h4>K-Way Merge Reducer</h4>
+                        <p>A Min-Heap priority queue simultaneously consumes top elements from all \(K\) streams, producing a globally ordered CSV.</p>
+                    </div>
+                </div>
+
+                <!-- Upload Section -->
+                <div class="grid-2-cols">
+                    <!-- File Upload Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Upload Custom CSV Dataset</h3>
+                            <span class="tag">Up to 500 MB</span>
+                        </div>
+                        <form action="{{ url_for('upload_file') }}" method="POST" enctype="multipart/form-data" class="upload-form">
+                            <div class="drop-zone" id="dropZone">
+                                <div class="drop-icon">📁</div>
+                                <p class="drop-text">Drag & drop your CSV file here, or <span class="highlight">browse</span></p>
+                                <span class="hint">Only UTF-8 encoded .csv files are supported</span>
+                                <input type="file" name="csv_file" id="fileInput" accept=".csv" class="file-input">
+                            </div>
+                            <div id="fileSelectedDisplay" class="file-selected" style="display:none;">
+                                Selected: <strong id="selectedFileName"></strong>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Proceed to Configuration →</button>
+                        </form>
+                    </div>
+
+                    <!-- Pre-Packaged Academic Datasets -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Quick Test Sample Datasets</h3>
+                            <span class="tag">Instant Load</span>
+                        </div>
+                        <p class="text-muted">Use pre-generated benchmark datasets to test and verify the MapReduce sorting engine immediately:</p>
+                        <form action="{{ url_for('upload_file') }}" method="POST" class="sample-form">
+                            <div class="sample-list">
+                                {% if sample_files %}
+                                    {% for sample in sample_files %}
+                                        <label class="sample-option">
+                                            <input type="radio" name="sample_dataset" value="{{ sample.filename }}" {% if loop.first %}checked{% endif %}>
+                                            <div class="sample-details">
+                                                <strong>{{ sample.filename }}</strong>
+                                                <span>{{ sample.size_kb }} • Multi-column transactional records</span>
+                                            </div>
+                                        </label>
+                                    {% endfor %}
+                                {% else %}
+                                    <div class="sample-option">
+                                        <span>No pre-packaged files found. Please upload a CSV.</span>
+                                    </div>
+                                {% endif %}
+                            </div>
+                            <button type="submit" class="btn btn-secondary btn-block">Load Selected Sample Dataset</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Viva / Academic Theory Section -->
+                <section id="viva" class="card mt-4">
+                    <div class="card-header">
+                        <h3>College Project Viva Preparation & Key Concepts</h3>
+                    </div>
+                    <div class="faq-accordion">
+                        <div class="faq-item">
+                            <h4>Q1: Why doesn't standard Hadoop guarantee global sort with multiple reducers?</h4>
+                            <p><strong>Answer:</strong> Hadoop's default HashPartitioner assigns records by <code>hash(key) % num_reducers</code>. While each individual reducer output file (e.g., <code>part-00000</code>, <code>part-00001</code>) is locally sorted, keys are scattered across reducers. To achieve a <strong>global sort</strong> across multiple reducers, Hadoop requires <code>TotalOrderPartitioner</code>, which samples the dataset to define contiguous key ranges (e.g. Reducer 0 handles keys [0–1000], Reducer 1 handles [1001–2000]). In our local Python simulation, global ordering is guaranteed using sorted chunks followed by a K-Way Min-Heap Merge Reducer.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Q2: What is the time complexity of the K-Way Merge Reducer?</h4>
+                            <p><strong>Answer:</strong> With \(N\) total records and \(K\) chunks, inserting and popping from the Min-Heap takes \(O(\log K)\). Across all \(N\) rows, total merge time is <strong>\(O(N \log K)\)</strong>. Furthermore, space complexity is only \(O(K)\) in memory, because only the current leading element of each chunk file is held in the priority queue, allowing files larger than available RAM to be sorted safely.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

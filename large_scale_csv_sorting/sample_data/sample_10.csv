@@ -1,0 +1,11 @@
+transaction_id,customer_name,category,sales_amount,quantity,discount,transaction_date,city
+1001,Sophia Taylor,Electronics,850.5,3,0.1,2023-04-12,Seattle
+1002,Lucas Wilson,Furniture,120.0,1,0.05,2023-08-19,Austin
+1003,Olivia Smith,Appliances,4200.0,10,0.2,2023-01-05,New York
+1004,Liam Anderson,Books,45.99,2,0.0,2023-11-23,Chicago
+1005,Emma Johnson,Clothing,1200.0,4,0.15,2023-06-30,Boston
+1006,Noah Davis,Industrial,310.25,1,0.0,2023-03-14,Denver
+1007,Ava Martinez,Health & Care,45.99,2,0.05,2023-09-02,Miami
+1008,Oliver Brown,Automotive,2899.0,5,0.25,2023-12-01,San Francisco
+1009,Mia Garcia,Garden,750.0,3,0.1,2023-07-08,Atlanta
+1010,Ethan Miller,Sports,150.0,2,0.05,2023-02-28,Portland
